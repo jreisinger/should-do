@@ -8,11 +8,11 @@ my %activity_weight = (
     wrote_answer  => 15,
     wrote_script  => 25,
     read_chapter  => 50,
+    attended_conf => 250,
     read_book     => 500,
     wrote_prog    => 500,
-    got_cert      => 1000,
-    took_class    => 1000,
-    attended_conf => 1000,
+    took_class    => 500,
+    got_cert      => 750,
 );
 
 my $activities_file = shift;
