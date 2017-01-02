@@ -1,8 +1,9 @@
 lang: perl
 script:
+- perl should-do activities
 - perl should-do activities > README.md
-after_success:
-- sh push.sh
+#after_success:
+#- sh push.sh
 deploy:
   provider: releases
   api_key:
@@ -10,4 +11,5 @@ deploy:
   file: README.md
   skip_cleanup: true
   on:
+	tags: true
     repo: jreisinger/should-do
