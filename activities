@@ -1,4 +1,7 @@
 #Skill|done_this|URL|YYYY-MM-DD
+Linux|read_book|https://www.nostarch.com/howlinuxworks2|2016
+Perl|read_book|https://www.intermediateperl.com/|2016
+DevOps,Mngt|read_book|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)|2016
 Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/module-build.md|2016-10-17
 Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md|2016-09-12
 SysAdmin,Net,Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05-17
