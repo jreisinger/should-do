@@ -1,11 +1,11 @@
 #Skill|done_this|URL|YYYY-MM-DD
 Bash|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
-Perl,SysAdmin|wrote_script|https://github.com/jreisinger/checkprocs|2016
-Python,Perl,CM|attended_conf|https://archive.fosdem.org/2016/|2016
+Perl|wrote_script|https://github.com/jreisinger/checkprocs|2016
+Perl,CM|attended_conf|https://archive.fosdem.org/2016/|2016
 Linux|read_book|https://www.nostarch.com/howlinuxworks2|2016
 Perl|read_book|https://www.intermediateperl.com/|2016
 DevOps,Mngt|read_book|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)|2016
 Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/module-build.md|2016-10-17
 Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md|2016-09-12
-SysAdmin,Net,Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05-17
-SysAdmin,Virt|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md|2016-05-13
+Net,Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05-17
+Virt|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md|2016-05-13
