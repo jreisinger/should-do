@@ -3,16 +3,12 @@ use strict;
 use warnings;
 
 my %activity_weight = (
-    read_blog     => 5,
-    wrote_blog    => 25,
-    wrote_answer  => 15,
-    wrote_script  => 25,
-    read_chapter  => 50,
-    attended_conf => 250,
-    read_book     => 500,
-    wrote_prog    => 500,
-    took_class    => 500,
-    got_cert      => 750,
+    read_blog     => 1,    # 1 pomodoro, i.e. 25 mins
+    wrote_blog    => 2,    # 50 mins
+    wrote_script  => 2,
+    read_chapter  => 2,
+    read_book     => 30,   # 12.5 hour
+    wrote_prog    => 30,
 );
 
 my $activities_file = shift;
