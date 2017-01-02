@@ -10,6 +10,7 @@ deploy:
     secure: JZo6WlF3CuZchLyxmPQfDGmmyD0TzZPMN4oyHAWCFu+/rbhlbUF9rJAlos2Lg4P4q+QbNhMNNA488NWxXogKuYXW5sTro/RZTabvbkh7WdGAdeNf3NZ9TsjMnnQ134Zyoann1kb3BfHTzNzW1SNA21ThtahxyKcfZaaK5rwvGuiUlT/TBAG44J0EwqBJvoYzCIoBFlYLeaovH50MlCGAZFqgSCuTXkmzLMSP8s0YCLxPqEwdRoRT2cYhKPQf+6EfkFVJWoh1PfGqXxkZyZdCa8E/OmCE/NTbb+WUFRPirfnapPeRIGMhiFbZfYjuHrEa52hAntKRql0jaGHuTXwNRL+RqW7InbLwLYbirl5eofL8hXdQ3yPa8OyjUwHgW3N4YOZhSQOpB13zLAjindoGjwePrqkv5TQdm4MSDU9XNpeE+bSwVAwAqsCvKd5APHFu6/HtzTM3yZuR3/x4FEUW4efzS8SGw847ItQaBcH3t71328bkzeiJNQ7vAYIkXFoeh/tTgAide+y1npaxaCnW/LHOJXpuMw+Q6LfUSMToMvPPyhWE/IAGKL5InEzX+d01GHycSLBkZEr0ODJOjDu61gUm5hO0npZDO0UlkZFedcOerQpdGBp0i+yl+XuDeb3wdDpsmjW2j3t5AhqUoYEK1fNPmi/teNcCUfJ4ifsjzTI=
   file: README.md
   skip_cleanup: true
+  overwrite: true
   on:
     tags: true
-    repo: jreisinger/should-do
+	#repo: jreisinger/should-do
