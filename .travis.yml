@@ -2,7 +2,7 @@ lang: perl
 script:
 - perl should-do activities > README.md
 after_success:
-- ./push.sh
+- bash push.sh
 env:
   global:
   - secure: O6S1/p9iJbPn+H6ECHwBSJbm/vPfccJUZGpfLAF9aNH8Gr/DZigxAniAG4ubVCeFgs8y3Cgqy68vZoq+eViza4hHHPa5rQX7LOJ9RYXVW/EUmuYArBBUMzv7wAFIcKDhxT5JCu+OjtPAEm4pKHlCIx9xbCJv49/0/2e4r+3uZt4NLHBkBKpjzpVkk5b0I/fRBLVEdgG0kAaubxT5eb3SnCUOhwxcqg5tkSMfUiF5HQ1i2ZwON/a7gQFUxQEI1gitd4g5Ikm/Ua7y42f9luBfHvj5kIp4H1SOm9+MvDiC4kWmeV4zwQNew+gQbJRRmarcWywMLQ1w7q+Sv0W5ta/fL17J6zK5V59npdDWF/XKR2nafxmIkM/jtLbgLb7Wi7HmwOVAAfUYUUnNHOpGv4b0aNIzojuqothGWrjYhUcXRRZ5Y2RGa3t8Eac9UOzrDDNHk9bS6GUu1eTcRc82/1JGfsDVLf9TWQjQhgSj412tJSC3voailJfHpu2Lqn1HHSmhv6LfbQyat/W7J+/3/KIKU60POt1AvGTJR13Z/ddRAukRkUPpKjXJbfUeJo+irDyrjVApGHmxQgQ+yzUayspIQxszX8Jr9kYGpTDZJAzJfZGBEDisqY5a+1DvdgZfVxHs47k2fgAIWkCOqh0pTjP6yg9tRp1rwEX+tibTd8oh0lo=
