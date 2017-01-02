@@ -1,0 +1,71 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my %activity_weight = (
+    read_blog     => 5,
+    wrote_blog    => 25,
+    wrote_answer  => 15,
+    wrote_script  => 25,
+    read_chapter  => 50,
+    read_book     => 500,
+    wrote_prog    => 500,
+    got_cert      => 1000,
+    took_class    => 1000,
+    attended_conf => 1000,
+);
+
+my $activities_file = shift;
+die "Usage: $0 activities.txt\n" unless defined $activities_file;
+
+open my $FH, $activities_file or die "Can't open $activities_file: $!\n";
+
+my $activities;
+while (<$FH>) {
+    next if /^\s*#/;
+    chomp;
+    my ( $skills, $activity, $url, $date ) = split /\|/;
+    die
+      "Unknown activity '$activity' at line $. of '$activities_file' file. Exiting ...\n"
+      unless grep $activity eq $_, keys %activity_weight;
+    for my $skill ( split /,/, $skills ) {
+        push @{ $activities->{$skill} },
+          { activity => $activity, url => $url, date => $date };
+    }
+}
+
+close $FH;
+
+# calculate activities per skill
+my %activities;
+for my $skill ( keys %{$activities} ) {
+    for my $activity ( @{ $activities->{$skill} } ) {
+        $activities{$skill} += $activity_weight{ $activity->{activity} };
+    }
+}
+
+my $header = <<END;
+You earn your living by having enough knowledge (theory) and experience
+(practice). However, these are expiring assets so you have to keep them fresh.
+While honing your knowledge keep in mind these principles:
+
+* Invest regularly - the *habit* itself is more important than the amount
+* Diversify - know the ins and outs of the technology you are working with
+  currently but *don't stop* there
+* Review and rebalance
+
+The skills you should be working on:
+
+END
+
+# print out in Markdown format
+print $header;
+for my $skill ( sort { $activities{$a} <=> $activities{$b} } keys %activities )
+{
+    print "* $skill ($activities{$skill}): ";
+    my @activities;
+    push @activities, "$_->{date} - [$_->{activity}]($_->{url})"
+      for @{ $activities->{$skill} };
+    print join ", ", @activities;
+    print "\n";
+}
