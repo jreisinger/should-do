@@ -3,12 +3,12 @@ use strict;
 use warnings;
 
 my %activity_weight = (
-    read_blog     => 1,    # 1 pomodoro, i.e. 25 mins
-    wrote_blog    => 2,    # 50 mins
-    read_chapter  => 2,
-    wrote_script  => 4,
-    read_book     => 30,   # 12.5 hour
-    wrote_prog    => 30,
+    read_blog    => 1,     # 1 pomodoro, i.e. 25 mins
+    wrote_blog   => 2,     # 50 mins
+    read_chapter => 2,
+    wrote_script => 4,
+    read_book    => 30,    # 12.5 hour
+    wrote_prog   => 30,
 );
 
 my $activities_file = shift;
@@ -60,8 +60,12 @@ for my $skill ( sort { $activities{$a} <=> $activities{$b} } keys %activities )
 {
     print "* $skill ($activities{$skill}): ";
     my @activities;
-    push @activities, "$_->{date} - [$_->{activity}]($_->{url})"
-      for @{ $activities->{$skill} };
+    for ( @{ $activities->{$skill} } ) {
+        my $url = $_->{url} =~ /^http/
+          ? "[$_->{activity}]($_->{url})"   # real URL
+          : "$_->{activity} ($_->{url})";   # note, script name, book title, ...
+        push @activities, "$_->{date} - $url";
+    }
     print join ", ", @activities;
     print "\n";
 }
