@@ -3,11 +3,9 @@ use strict;
 use warnings;
 
 my %activity_weight = (
-    read_blog    => 1,     # 1 pomodoro, i.e. 25 mins
-    wrote_blog   => 2,     # 50 mins
-    read_chapter => 2,
+    wrote_blog   => 2,     # 2 pomodoros, i.e. 50 mins
     wrote_script => 4,
-    read_book    => 30,    # 12.5 hour
+    read_book    => 30,    # 30 pomodoros, i.e. 12.5 hour
     wrote_prog   => 30,
 );
 
