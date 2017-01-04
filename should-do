@@ -2,6 +2,14 @@
 use strict;
 use warnings;
 
+my @skills = qw(
+  OS
+  Prog
+  Net
+  Sec
+  Mngt
+);
+
 my %activity_weight = (
     wrote_blog   => 2,     # 2 pomodoros, i.e. 50 mins
     wrote_script => 4,
@@ -23,6 +31,8 @@ while (<$FH>) {
       "Unknown activity '$activity' at line $. of '$activities_file' file. Exiting ...\n"
       unless grep $activity eq $_, keys %activity_weight;
     for my $skill ( split /,/, $skills ) {
+        die "You don't need $skill skill. Exiting ...\n"
+          unless grep $skill eq $_, @skills;
         push @{ $activities->{$skill} },
           { activity => $activity, url => $url, date => $date };
     }
@@ -32,7 +42,8 @@ close $FH;
 
 # calculate activities per skill
 my %activities;
-for my $skill ( keys %{$activities} ) {
+for my $skill (@skills) {
+    $activities{$skill} = 0 if not exists $activities->{$skill};
     for my $activity ( @{ $activities->{$skill} } ) {
         $activities{$skill} += $activity_weight{ $activity->{activity} };
     }
