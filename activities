@@ -1,4 +1,5 @@
-#Skill|Activity or Pomodoros|URL|YYYY-MM-DD
+#Skill|Activity or Pomodoros|URL or Note|YYYY-MM-DD
+Perl|wrote_script|cat-ossec-keys|2017-01-04
 Bash|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
 Perl|wrote_script|https://github.com/jreisinger/checkprocs|2016
 Linux|read_book|https://www.nostarch.com/howlinuxworks2|2016
