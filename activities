@@ -1,4 +1,4 @@
-#Skill|Activity or Pomodoros|URL or Note|YYYY-MM-DD
+#Skill|done_this|URL or Note|YYYY[-MM[-DD]]
 Prog|wrote_script|cat-ossec-keys|2017-01-04
 Prog|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
 Prog|wrote_script|https://github.com/jreisinger/checkprocs|2016
