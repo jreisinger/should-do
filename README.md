@@ -9,11 +9,7 @@ While honing your knowledge keep in mind these principles:
 
 The skills you should be working on:
 
-* Net (2): 2016-05-17 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
 * Sec (2): 2016-05-17 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
-* Virt (2): 2016-05-13 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
-* Bash (4): 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17)
 * Mngt (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
-* Linux (30): 2016 - [read_book](https://www.nostarch.com/howlinuxworks2)
-* DevOps (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
-* Perl (42): 2017-01-04 - wrote_script (cat-ossec-keys), 2016 - [wrote_script](https://github.com/jreisinger/checkprocs), 2016 - [read_book](https://www.intermediateperl.com/), 2016-10-17 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/module-build.md), 2016-09-12 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md)
+* OS (32): 2016 - [read_book](https://www.nostarch.com/howlinuxworks2), 2016-05-13 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
+* Prog (46): 2017-01-04 - wrote_script (cat-ossec-keys), 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17), 2016 - [wrote_script](https://github.com/jreisinger/checkprocs), 2016 - [read_book](https://www.intermediateperl.com/), 2016-10-17 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/module-build.md), 2016-09-12 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md)

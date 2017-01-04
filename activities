@@ -1,11 +1,11 @@
 #Skill|Activity or Pomodoros|URL or Note|YYYY-MM-DD
-Perl|wrote_script|cat-ossec-keys|2017-01-04
-Bash|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
-Perl|wrote_script|https://github.com/jreisinger/checkprocs|2016
-Linux|read_book|https://www.nostarch.com/howlinuxworks2|2016
-Perl|read_book|https://www.intermediateperl.com/|2016
-DevOps,Mngt|read_book|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)|2016
-Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/module-build.md|2016-10-17
-Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md|2016-09-12
-Net,Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05-17
-Virt|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md|2016-05-13
+Prog|wrote_script|cat-ossec-keys|2017-01-04
+Prog|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
+Prog|wrote_script|https://github.com/jreisinger/checkprocs|2016
+OS|read_book|https://www.nostarch.com/howlinuxworks2|2016
+Prog|read_book|https://www.intermediateperl.com/|2016
+Mngt|read_book|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)|2016
+Prog|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/module-build.md|2016-10-17
+Prog|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md|2016-09-12
+Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05-17
+OS|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md|2016-05-13
