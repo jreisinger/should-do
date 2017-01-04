@@ -9,6 +9,7 @@ While honing your knowledge keep in mind these principles:
 
 The skills you should be working on:
 
+* Net (0): 
 * Sec (2): 2016-05-17 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
 * Mngt (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
 * OS (32): 2016 - [read_book](https://www.nostarch.com/howlinuxworks2), 2016-05-13 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
