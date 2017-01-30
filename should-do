@@ -5,7 +5,6 @@ use warnings;
 my @skills = qw(
   OS
   Linux
-  Prog
   Bash
   Perl
   Python
