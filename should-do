@@ -68,7 +68,8 @@ END
 
 # print out in Markdown format
 print $header;
-for my $skill ( sort { $activities{$a} <=> $activities{$b} } keys %activities )
+for my $skill ( sort { $activities{$a} <=> $activities{$b} or $a cmp $b }
+    keys %activities )
 {
     print "* $skill ($activities{$skill}): ";
     my @activities;
