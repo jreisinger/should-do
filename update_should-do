@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd /tmp
+git clone -q git@github.com:jreisinger/should-do.git
+cd should-do
+perl should-do activities.txt > README.md
+git commit -q -m "update README" README.md > /dev/null
+git push -q
+cd ..
+rm -rf should-do
