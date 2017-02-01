@@ -1,5 +1,5 @@
 #Skill|done_this|URL or Note|YYYY[-MM]]
-Linux|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05
+Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05
 Net|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05
 Perl|wrote_script|check_ossec|2017-01
 Perl|wrote_script|cat-ossec-keys|2017-01
