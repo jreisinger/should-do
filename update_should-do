@@ -1,10 +1,11 @@
 #!/bin/bash
+# update README from cron (TravisCI didn't work)
 
 cd /tmp
 git clone -q git@github.com:jreisinger/should-do.git
 cd should-do
 perl should-do activities.txt > README.md
-git commit -q -m "update README" README.md > /dev/null
+git commit -q -m "update README from cron" README.md > /dev/null
 git push -q
 cd ..
 rm -rf should-do
