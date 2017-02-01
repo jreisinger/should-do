@@ -11,4 +11,4 @@ Python|wrote_script|monitor|2016-12
 Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/module-build.md|2016-10
 Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md|2016-09
 Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05
-OS|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md|2016-05
+Auto|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md|2016-05
