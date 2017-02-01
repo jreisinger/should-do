@@ -9,10 +9,10 @@ While honing your knowledge keep in mind these principles:
 
 The skills you should be working on:
 
-* Net (0): 
 * OS (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
 * Sec (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
 * Bash (4): 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17)
+* Net (4): 2017-02 - wrote_script (dummy)
 * Python (4): 2016-12 - wrote_script (monitor)
 * Linux (30): 2016 - [read_book](https://www.nostarch.com/howlinuxworks2)
 * Mngt (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
