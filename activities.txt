@@ -1,4 +1,5 @@
 #Skill|done_this|URL or Note|YYYY[-MM]]
+Net|wrote_script|dummy|2017-02
 Perl|wrote_script|check_ossec|2017-01
 Perl|wrote_script|cat-ossec-keys|2017-01
 Bash|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
