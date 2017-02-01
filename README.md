@@ -9,8 +9,10 @@ While honing your knowledge keep in mind these principles:
 
 The skills you should be working on:
 
+* # (0): 
+* automation (0): 
+* Auto (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
 * Net (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
-* OS (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
 * Sec (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
 * Bash (4): 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17)
 * Python (4): 2016-12 - wrote_script (monitor)
