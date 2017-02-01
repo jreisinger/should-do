@@ -34,7 +34,7 @@ while (<$FH>) {
       "Unknown activity '$activity' at line $. of '$activities_file' file. Exiting ...\n"
       unless grep $activity eq $_, keys %activity_weight;
     for my $skill ( split /,/, $skills ) {
-        die "You don't need $skill skill. Exiting ...\n"
+        die "You don't need '$skill' skill. Exiting ...\n"
           unless grep $skill eq $_, @skills;
         push @{ $activities->{$skill} },
           { activity => $activity, url => $url, date => $date };
