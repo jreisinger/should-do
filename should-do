@@ -3,6 +3,7 @@ use strict;
 use warnings;
 
 my @skills = qw(
+  Algorithms
   OS
   Linux
   Bash
