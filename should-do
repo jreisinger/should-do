@@ -4,7 +4,7 @@ use warnings;
 
 my @skills = qw(
   Algorithms
-  OS
+  Tools
   Linux
   Bash
   Perl
