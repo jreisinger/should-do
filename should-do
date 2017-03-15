@@ -15,9 +15,10 @@ my @skills = qw(
 );
 
 my %activity_weight = (
-    wrote_blog   => 2,     # 2 pomodoros, i.e. 50 mins
+    'wrote_q&a'  => 1,     # ~ 1 pomodoro, i.e. 25 mins
+    wrote_blog   => 2,
     wrote_script => 4,
-    read_book    => 30,    # 30 pomodoros, i.e. 12.5 hour
+    read_book    => 30,    # ~ 30 pomodoros, i.e. 12.5 hour
     wrote_prog   => 30,
 );
 
