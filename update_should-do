@@ -1,11 +1,13 @@
 #!/bin/bash
 # update README from cron (TravisCI didn't work)
 
+# Make sure we clean up even if the script exits abnormally ...
+trap "exit 1"                   HUP INT PIPE QUIT TERM
+trap "rm -rf /tmp/should-do"    EXIT
+
 cd /tmp
 git clone -q git@github.com:jreisinger/should-do.git
 cd should-do
 perl should-do activities.txt > README.md
 git commit -q -m "update README from cron" README.md > /dev/null
 git push -q
-cd ..
-rm -rf should-do
