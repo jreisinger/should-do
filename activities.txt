@@ -2,8 +2,6 @@
 Algorithms|read_book|https://www.manning.com/books/grokking-algorithms|2017-03
 Perl|wrote_q&a|http://perlmonks.org/?node_id=1184546|2017-03
 Python|read_book|https://www.nostarch.com/pythoncrashcourse|2017-03
-Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05
-Net|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05
 Perl|wrote_script|check_ossec|2017-01
 Perl|wrote_script|cat-ossec-keys|2017-01
 Bash|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
