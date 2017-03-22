@@ -1,5 +1,5 @@
 #Skill|done_this|URL or Note|YYYY[-MM]]
-Net|wrote_q&a|bla/2017
+Net|wrote_q&a|bla|2017
 Algorithms|read_book|https://www.manning.com/books/grokking-algorithms|2017-03
 Perl|wrote_q&a|http://perlmonks.org/?node_id=1184546|2017-03
 Python|read_book|https://www.nostarch.com/pythoncrashcourse|2017-03
