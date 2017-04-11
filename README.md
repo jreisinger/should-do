@@ -9,7 +9,7 @@ While honing your knowledge keep in mind these principles:
 
 The skills you should be working on:
 
-* Net (0): 
+* Net (1): 2017 - wrote_q&a (bla)
 * Sec (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
 * Tools (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
 * Bash (4): 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17)
