@@ -17,4 +17,4 @@ The skills you should be working on:
 * Linux (30): 2016 - [read_book](https://www.nostarch.com/howlinuxworks2)
 * Mngt (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
 * Perl (47): 2017-03 - [wrote_q&a](http://perlmonks.org/?node_id=1184546), 2017-01 - wrote_script (check_ossec), 2017-01 - wrote_script (cat-ossec-keys), 2016 - [wrote_script](https://github.com/jreisinger/checkprocs), 2016 - [read_book](https://www.intermediateperl.com/), 2016-10 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/module-build.md), 2016-09 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md)
-* Python (64): 2017-05 - [read_book](http://greenteapress.com/wp/think-python-2e/), 2017-03 - [read_book](https://www.nostarch.com/pythoncrashcourse), 2016-12 - wrote_script (monitor)
+* Python (64): 2017-05 - [read_book](http://greenteapress.com/wp/think-python-2e/), 2017-03 - [read_book](https://www.nostarch.com/pythoncrashcourse), 2016-12 - [wrote_script](https://github.com/jreisinger/sys/blob/master/monitor.py)
