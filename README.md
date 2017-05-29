@@ -1,8 +1,10 @@
+NOTE: this file was **generated** by `./should-do`.
+
 You earn your living by having enough knowledge (theory) and experience
 (practice). However, these are expiring assets so you have to keep them fresh.
-While honing your knowledge keep in mind these principles:
+While honing your knowledge keep in mind these principles (based on The Pragmatic Programmer):
 
-* Invest regularly - the *habit* itself is more important than the amount
+* Invest regularly - the *habit* itself is as important as the amount
 * Diversify - know the ins and outs of the technology you are working with
   currently but *don't stop* there
 * Review and rebalance
