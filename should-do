@@ -2,23 +2,6 @@
 use strict;
 use warnings;
 
-# Header to be printed out (into the README.md file)
-my $header = <<END;
-NOTE: this file was **generated** by `$0`.
-
-You earn your living by having enough knowledge (theory) and experience
-(practice). However, these are expiring assets so you have to keep them fresh.
-While honing your knowledge keep in mind these principles (based on The Pragmatic Programmer):
-
-* Invest regularly - the *habit* itself is as important as the amount
-* Diversify - know the ins and outs of the technology you are working with
-  currently but *don't stop* there
-* Review and rebalance
-* Stay current - read news, take classes, go to conferences
-* Contribute - QaA, blogs, code
-
-END
-
 # Skills I want to hone
 my @wanted_skills = qw(
   Algorithms
@@ -81,9 +64,35 @@ my @sorted_skills =
 
 # Print out skills and activities in Markdown format ...
 
+my $activities =    join ", ",
+                    map "$_ ($activity_weight{$_})",
+                    sort {
+                            $activity_weight{$b} <=> $activity_weight{$a}
+                                ||
+                            $a cmp $b
+                         } keys %activity_weight;
+
+# Header to be printed out (into the README.md file)
+my $header = <<END;
+NOTE: this file was **generated** by `$0`.
+
+You earn your living by having enough knowledge (theory) and experience
+(practice). However, these are expiring assets so you have to keep them fresh.
+While honing your knowledge keep in mind these principles (based on The Pragmatic Programmer):
+
+* Invest regularly - the *habit* itself is as important as the amount
+* Diversify - know the ins and outs of the technology you are working with
+  currently but *don't stop* there
+* Review and rebalance
+* Stay current - read news, take classes, go to conferences
+* Contribute - QaA, blogs, code
+
+The following activities are being tracked here: $activities.
+END
+
 print $header;
 
-print "The skills you should be working on:\n\n";
+print "\nThe skills you should be working on:\n\n";
 for my $skill ( @sorted_skills )
 {
     next unless grep $skill eq $_, @wanted_skills;
