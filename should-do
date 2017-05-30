@@ -2,6 +2,24 @@
 use strict;
 use warnings;
 
+# Header to be printed (into the README file)
+my $header = <<END;
+NOTE: this file was **generated** by `$0`.
+
+You earn your living by having enough knowledge (theory) and experience
+(practice). However, these are expiring assets so you have to keep them fresh.
+While honing your knowledge keep in mind these principles (based on The Pragmatic Programmer):
+
+* Invest regularly - the *habit* itself is as important as the amount
+* Diversify - know the ins and outs of the technology you are working with
+  currently but *don't stop* there
+* Review and rebalance
+
+The skills you should be working on:
+
+END
+
+# Skills I want to have
 my @skills = qw(
   Algorithms
   Tools
@@ -14,6 +32,7 @@ my @skills = qw(
   Mngt
 );
 
+# Activities that help me hone the skills
 my %activity_weight = (
     'wrote_q&a'  => 1,     # ~ 1 pomodoro, i.e. 25 mins
     wrote_blog   => 2,
@@ -22,11 +41,12 @@ my %activity_weight = (
     wrote_prog   => 30,
 );
 
+# What I have done
 my $activities_file = shift;
 die "Usage: $0 activities.txt\n" unless defined $activities_file;
-
 open my $FH, $activities_file or die "Can't open $activities_file: $!\n";
 
+# Read in all my activities and related data
 my $activities;
 while (<$FH>) {
     next if /^\s*#/;
@@ -45,37 +65,25 @@ while (<$FH>) {
 
 close $FH;
 
-# calculate activities per skill
-my %activities;
+# Calculate score per skill based on the activities weight
+my %score;
 for my $skill (@skills) {
-    $activities{$skill} = 0 if not exists $activities->{$skill};
+    $score{$skill} = 0 if not exists $activities->{$skill};
     for my $activity ( @{ $activities->{$skill} } ) {
-        $activities{$skill} += $activity_weight{ $activity->{activity} };
+        $score{$skill} += $activity_weight{ $activity->{activity} };
     }
 }
 
-my $header = <<END;
-NOTE: this file was **generated** by `$0`.
+#use Data::Dumper;
+#print Dumper \%score, $activities;
+#exit;
 
-You earn your living by having enough knowledge (theory) and experience
-(practice). However, these are expiring assets so you have to keep them fresh.
-While honing your knowledge keep in mind these principles (based on The Pragmatic Programmer):
-
-* Invest regularly - the *habit* itself is as important as the amount
-* Diversify - know the ins and outs of the technology you are working with
-  currently but *don't stop* there
-* Review and rebalance
-
-The skills you should be working on:
-
-END
-
-# print out in Markdown format
+# Print out skills and activities in Markdown format
 print $header;
-for my $skill ( sort { $activities{$a} <=> $activities{$b} or $a cmp $b }
-    keys %activities )
+for my $skill ( sort { $score{$a} <=> $score{$b} or $a cmp $b }
+    keys %score )
 {
-    print "* $skill ($activities{$skill}): ";
+    print "* $skill ($score{$skill}): ";
     my @activities;
     for ( @{ $activities->{$skill} } ) {
         my $url = $_->{url} =~ /^http/
