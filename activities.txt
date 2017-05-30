@@ -1,4 +1,4 @@
-#Skill|done_this|URL or Note|YYYY[-MM]]
+#skill[,skill,...]|done_activity|URL or Note|YYYY[-MM]
 C|read_book|https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410|2017-05
 Python|read_book|http://greenteapress.com/wp/think-python-2e/|2017-05
 Algorithms|read_book|https://www.manning.com/books/grokking-algorithms|2017-03
