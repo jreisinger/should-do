@@ -89,7 +89,7 @@ for my $skill ( @sorted_skills )
 }
 
 print "\nYou have also done:\n\n";
-for my $skill ( @sorted_skills )
+for my $skill ( reverse @sorted_skills )
 {
     next if grep $skill eq $_, @wanted_skills;
     print_skill($skill);
