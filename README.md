@@ -27,5 +27,5 @@ You have also done:
 * C (30): 2017-05 - [read_book](https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410)
 * Mngt (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
 * DevOps (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
-* Bash (4): 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17)
+* Shell (4): 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17)
 * Tools (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
