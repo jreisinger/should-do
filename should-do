@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-# Header to be printed (into the README file)
+# Header to be printed out (into the README.md file)
 my $header = <<END;
 NOTE: this file was **generated** by `$0`.
 
@@ -46,7 +46,7 @@ my $activities_file = shift;
 die "Usage: $0 activities.txt\n" unless defined $activities_file;
 open my $FH, $activities_file or die "Can't open $activities_file: $!\n";
 
-# Read in all my activities and related data
+# Read in all the activities I have done
 my %activities;
 while (<$FH>) {
     next if /^\s*#/;
@@ -62,33 +62,31 @@ while (<$FH>) {
           { name => $activity, url => $url, date => $date };
     }
 }
-
 close $FH;
 
-# Calculate score per skill based on the activities weight
-my %score;
+# Calculate rating per skill
+my %rating;
 for my $skill (@skills) {
-    $score{$skill} = 0 if not exists $activities{$skill};
+    $rating{$skill}{score} = 0;
+    $rating{$skill}{last_date} = "";
+
     for my $activity ( @{ $activities{$skill} } ) {
-        $score{$skill} += $activity_weight{ $activity->{name} };
+        $rating{$skill}{score} += $activity_weight{ $activity->{name} };
+        $rating{$skill}{last_date} = $activity->{date}
+            if $activity->{date} gt $rating{$skill}{last_date};
     }
 }
 
-#use Data::Dumper;
-#print '%score', "\n";
-#print Dumper \%score;
-#print '%activities', "\n";
-#print Dumper \%activities;
-#exit;
-
-# Sort skills by score, last activity date and skill name
-
-# Print out skills and activities in Markdown format
+# Print out skills and activities in Markdown format sorted by activities
+# score, last activity date and skill name
 print $header;
-for my $skill ( sort { $score{$a} <=> $score{$b} or $a cmp $b }
-    keys %score )
+for my $skill ( sort {  $rating{$a}{score} <=> $rating{$b}{score} or
+                        $rating{$a}{last_date} cmp $rating{$b}{last_date} or
+                        $a cmp $b
+                     } keys %rating
+              )
 {
-    print "* $skill ($score{$skill}): ";
+    print "* $skill ($rating{$skill}{score}): ";
     my @activities;
     for ( @{ $activities{$skill} } ) {
         my $url = $_->{url} =~ /^http/
