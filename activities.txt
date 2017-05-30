@@ -6,7 +6,7 @@ Perl|wrote_q&a|http://perlmonks.org/?node_id=1184546|2017-03
 Python|read_book|https://www.nostarch.com/pythoncrashcourse|2017-03
 Perl|wrote_script|check_ossec|2017-01
 Perl|wrote_script|cat-ossec-keys|2017-01
-Bash|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
+Shell|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
 Perl|wrote_script|https://github.com/jreisinger/checkprocs|2016
 Linux|read_book|https://www.nostarch.com/howlinuxworks2|2016
 Perl|read_book|https://www.intermediateperl.com/|2016
