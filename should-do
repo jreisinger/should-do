@@ -47,7 +47,7 @@ die "Usage: $0 activities.txt\n" unless defined $activities_file;
 open my $FH, $activities_file or die "Can't open $activities_file: $!\n";
 
 # Read in all my activities and related data
-my $activities;
+my %activities;
 while (<$FH>) {
     next if /^\s*#/;
     chomp;
@@ -58,8 +58,8 @@ while (<$FH>) {
     for my $skill ( split /,/, $skills ) {
         die "You don't need '$skill' skill. Exiting ...\n"
           unless grep $skill eq $_, @skills;
-        push @{ $activities->{$skill} },
-          { activity => $activity, url => $url, date => $date };
+        push @{ $activities{$skill} },
+          { name => $activity, url => $url, date => $date };
     }
 }
 
@@ -68,15 +68,20 @@ close $FH;
 # Calculate score per skill based on the activities weight
 my %score;
 for my $skill (@skills) {
-    $score{$skill} = 0 if not exists $activities->{$skill};
-    for my $activity ( @{ $activities->{$skill} } ) {
-        $score{$skill} += $activity_weight{ $activity->{activity} };
+    $score{$skill} = 0 if not exists $activities{$skill};
+    for my $activity ( @{ $activities{$skill} } ) {
+        $score{$skill} += $activity_weight{ $activity->{name} };
     }
 }
 
 #use Data::Dumper;
-#print Dumper \%score, $activities;
+#print '%score', "\n";
+#print Dumper \%score;
+#print '%activities', "\n";
+#print Dumper \%activities;
 #exit;
+
+# Sort skills by score, last activity date and skill name
 
 # Print out skills and activities in Markdown format
 print $header;
@@ -85,10 +90,10 @@ for my $skill ( sort { $score{$a} <=> $score{$b} or $a cmp $b }
 {
     print "* $skill ($score{$skill}): ";
     my @activities;
-    for ( @{ $activities->{$skill} } ) {
+    for ( @{ $activities{$skill} } ) {
         my $url = $_->{url} =~ /^http/
-          ? "[$_->{activity}]($_->{url})"   # real URL
-          : "$_->{activity} ($_->{url})";   # note, script name, book title, ...
+          ? "[$_->{name}]($_->{url})"   # real URL
+          : "$_->{name} ($_->{url})";   # note, script name, book title, ...
         push @activities, "$_->{date} - $url";
     }
     print join ", ", @activities;
