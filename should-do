@@ -15,21 +15,15 @@ While honing your knowledge keep in mind these principles (based on The Pragmati
   currently but *don't stop* there
 * Review and rebalance
 
-The skills you should be working on:
-
 END
 
-# Skills I want to have
-my @skills = qw(
+# Skills I want to hone
+my @wanted_skills = qw(
   Algorithms
-  Tools
   Linux
-  Bash
-  Perl
-  Python
   Net
+  Python
   Sec
-  Mngt
 );
 
 # Activities that help me hone the skills
@@ -56,8 +50,6 @@ while (<$FH>) {
       "Unknown activity '$activity' at line $. of '$activities_file' file. Exiting ...\n"
       unless grep $activity eq $_, keys %activity_weight;
     for my $skill ( split /,/, $skills ) {
-        die "You don't need '$skill' skill. Exiting ...\n"
-          unless grep $skill eq $_, @skills;
         push @{ $activities{$skill} },
           { name => $activity, url => $url, date => $date };
     }
@@ -66,7 +58,7 @@ close $FH;
 
 # Calculate rating per skill
 my %rating;
-for my $skill (@skills) {
+for my $skill (keys %activities, @wanted_skills) { # all skills
     $rating{$skill}{score} = 0;
     $rating{$skill}{last_date} = "";
 
@@ -77,15 +69,37 @@ for my $skill (@skills) {
     }
 }
 
-# Print out skills and activities in Markdown format sorted by activities
-# score, last activity date and skill name
+# Sort skills by activities score, last activity date and skill name
+my @sorted_skills =
+    sort    {
+                $rating{$a}{score} <=> $rating{$b}{score} or
+                $rating{$a}{last_date} cmp $rating{$b}{last_date} or
+                $a cmp $b
+            } keys %rating;
+
+# Print out skills and activities in Markdown format ...
+
 print $header;
-for my $skill ( sort {  $rating{$a}{score} <=> $rating{$b}{score} or
-                        $rating{$a}{last_date} cmp $rating{$b}{last_date} or
-                        $a cmp $b
-                     } keys %rating
-              )
+
+print "The skills you should be working on:\n\n";
+for my $skill ( @sorted_skills )
 {
+    next unless grep $skill eq $_, @wanted_skills;
+    print_skill($skill);
+}
+
+print "\nYou have also done:\n\n";
+for my $skill ( @sorted_skills )
+{
+    next if grep $skill eq $_, @wanted_skills;
+    print_skill($skill);
+}
+
+# Functions ...
+
+sub print_skill {
+    my $skill = shift;
+
     print "* $skill ($rating{$skill}{score}): ";
     my @activities;
     for ( @{ $activities{$skill} } ) {
