@@ -19,7 +19,7 @@ The skills you should be working on:
 
 You have also done:
 
-* Tools (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
-* Bash (4): 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17)
-* Mngt (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
 * Perl (47): 2017-03 - [wrote_q&a](http://perlmonks.org/?node_id=1184546), 2017-01 - wrote_script (check_ossec), 2017-01 - wrote_script (cat-ossec-keys), 2016 - [wrote_script](https://github.com/jreisinger/checkprocs), 2016 - [read_book](https://www.intermediateperl.com/), 2016-10 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/module-build.md), 2016-09 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md)
+* Mngt (30): 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
+* Bash (4): 2016 - [wrote_script](https://github.com/skx/sysadmin-util/issues/17)
+* Tools (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
