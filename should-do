@@ -13,13 +13,13 @@ my @wanted_skills = qw(
 
 # Activities that help me hone the skills
 my %activity_weight = (
-    'wrote_q&a'  => 1,     # ~ 1 pomodoro, i.e. 25 mins
-    wrote_blog   => 2,
-    wrote_script => 4,
-    read_book    => 30,    # ~ 30 pomodoros, i.e. 12.5 hour
-    wrote_prog   => 30,
-    conf         => 60,
-    cert         => 60,
+    'wrote_q&a'   => 1,     # ~ 1 pomodoro, i.e. 25 mins
+    wrote_blog    => 2,
+    wrote_script  => 4,
+    read_book     => 30,    # ~ 30 pomodoros, i.e. 12.5 hour
+    wrote_prog    => 30,
+    attended_conf => 60,
+    got_cert      => 60,
 );
 
 # What I have done
