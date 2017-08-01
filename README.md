@@ -11,7 +11,7 @@ While honing your knowledge keep in mind these principles (based on The Pragmati
 * Stay current - read news, take classes, go to conferences
 * Contribute - QaA, blogs, code
 
-The following activities are being tracked here: cert (60), conf (60), read_book (30), wrote_prog (30), wrote_script (4), wrote_blog (2), wrote_q&a (1).
+The following activities are being tracked here: attended_conf (60), got_cert (60), read_book (30), wrote_prog (30), wrote_script (4), wrote_blog (2), wrote_q&a (1).
 
 The skills you should be working on:
 
