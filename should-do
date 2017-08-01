@@ -18,6 +18,8 @@ my %activity_weight = (
     wrote_script => 4,
     read_book    => 30,    # ~ 30 pomodoros, i.e. 12.5 hour
     wrote_prog   => 30,
+    conf         => 60,
+    cert         => 60,
 );
 
 # What I have done
