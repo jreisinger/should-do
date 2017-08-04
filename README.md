@@ -1,5 +1,7 @@
 NOTE: this file was **generated** by `should-do`.
 
+I have no talent. What I do have is a lot of practice. -- John Nunemaker
+
 You earn your living by having enough knowledge (theory) and experience
 (practice). However, these are expiring assets so you have to keep them fresh.
 While honing your knowledge keep in mind these principles (based on The Pragmatic Programmer):
