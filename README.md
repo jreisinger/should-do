@@ -17,11 +17,11 @@ The following activities are being tracked here: attended_conf (60), got_cert (6
 
 The skills you should be working on:
 
-* Net (0): 
 * Sec (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
 * Linux (30): 2016 - [read_book](https://www.nostarch.com/howlinuxworks2)
 * Algorithms (30): 2017-03 - [read_book](https://www.manning.com/books/grokking-algorithms)
-* Python (64): 2017-05 - [read_book](http://greenteapress.com/wp/think-python-2e/), 2017-03 - [read_book](https://www.nostarch.com/pythoncrashcourse), 2016-12 - [wrote_script](https://github.com/jreisinger/sys/blob/master/monitor.py)
+* Net (30): 2017-09 - [read_book](http://www.apress.com/gp/book/9781430258544)
+* Python (94): 2017-09 - [read_book](http://www.apress.com/gp/book/9781430258544), 2017-05 - [read_book](http://greenteapress.com/wp/think-python-2e/), 2017-03 - [read_book](https://www.nostarch.com/pythoncrashcourse), 2016-12 - [wrote_script](https://github.com/jreisinger/sys/blob/master/monitor.py)
 
 You have also done:
 
