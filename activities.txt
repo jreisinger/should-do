@@ -1,4 +1,5 @@
 #skill[,skill,...]|done_activity|URL or Note|YYYY[-MM]
+Python,Net|read_book|http://www.apress.com/gp/book/9781430258544|2017-09
 DevOps,Mngt|wrote_blog|http://jreisinger.blogspot.sk/2017/07/devops.html|2017-07
 Varia|read_book|The Return of the King|2017-06
 C|read_book|https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410|2017-05
