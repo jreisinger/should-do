@@ -7,6 +7,8 @@ my @wanted_skills = qw(
   Algorithms
   Linux
   Net
+  Bash
+  vim
   Python
   Sec
 );
