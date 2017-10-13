@@ -17,6 +17,8 @@ The following activities are being tracked here: attended_conf (60), got_cert (6
 
 The skills you should be working on:
 
+* Bash (0): 
+* vim (0): 
 * Sec (2): 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
 * Linux (30): 2016 - [read_book](https://www.nostarch.com/howlinuxworks2)
 * Algorithms (30): 2017-03 - [read_book](https://www.manning.com/books/grokking-algorithms)
