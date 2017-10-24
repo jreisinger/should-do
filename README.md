@@ -10,9 +10,9 @@ While honing your knowledge keep in mind these principles (based on The Pragmati
 * Invest regularly - the *habit* itself is as important as the amount
 * Diversify - know the ins and outs of the technology you are working with
   currently but *don't stop* there
-* Review and rebalance
 * Stay current - read news, take classes, go to conferences
 * Contribute - QaA, blogs, code
+* Review and rebalance
 
 The following activities are being tracked here: attended_conf (60), got_cert (60), read_book (30), wrote_prog (30), wrote_script (4), wrote_blog (2), wrote_q&a (1).
 
