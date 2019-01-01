@@ -29,13 +29,13 @@ Python|2018-03|attended_conf|PyCon|https://2018.pycon.sk
 Sec|2018-02|attended_conf|2 day Metasploit training
 Http|2017-12|built|Naxsi 0.1.0
 Python|2017-12|wrote_script|Cog bundle for Naxsi (naxsi_status.py)
-DevOps|2017-12|attended_conf|Google Cloud Summit|https://cloudplatformonline.com/Summit-Munich-2017.html
+DevOps,Mngt|2017-12|attended_conf|Google Cloud Summit|https://cloudplatformonline.com/Summit-Munich-2017.html
 Python|2017-11|read_book|LPTHW|https://learnpythonthehardway.org/python3/
 Perl|2017-11|wrote_script|have-done|https://github.com/jreisinger/have-done
 Python|2017-10|attended_conf|OpenSlava|http://www.openslava.sk/2017
 Python,Net|2017-09|read_book|Foundations of Python Network Programming|http://www.apress.com/gp/book/9781430258544
 Python|2017-08|wrote_script|gendoc
-DevOps|2017-07|wrote_blog|Devops|http://jreisinger.blogspot.sk/2017/07/devops.html
+DevOps,Mngt|2017-07|wrote_blog|Devops|http://jreisinger.blogspot.sk/2017/07/devops.html
 NonTech|2017-06|read_book|The Return of the King|
 C|2017-05|read_book|Programming in C|https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410
 Python|2017-05|read_book|Think Python|http://greenteapress.com/wp/think-python-2e/
@@ -53,7 +53,7 @@ Python|2016-12|wrote_script|monitor.py|https://github.com/jreisinger/sys/blob/ma
 Perl|2016-10|wrote_blog|module-build|https://github.com/jreisinger/blog/blob/master/posts/module-build.md
 Perl|2016-09|wrote_blog|CPAN|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md
 Sec|2016-05|wrote_blog|tcpdump|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md
-DevOps|2016-05|wrote_blog|Vagrant|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md
+DevOps,Mngt|2016-05|wrote_blog|Vagrant|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md
 Perl|2013-09|wrote_script|sysadmin utility belt|https://github.com/jreisinger/MyUtils
 Perl|2013-09|wrote_script|teacher|https://github.com/jreisinger/teacher
 Perl|2013-08|wrote_script|Otter scripts|https://github.com/jreisinger/linux/tree/master/otter
