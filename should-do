@@ -39,13 +39,13 @@ my %activities;
 while (<$FH>) {
     next if /^\s*#/;
     chomp;
-    my ( $skills, $date, $activity, $url ) = split /\|/;
+    my ( $skills, $date, $activity, $note, $url ) = split /\|/;
     die
       "Unknown activity '$activity' at line $. of '$activities_file' file. Exiting ...\n"
       unless grep $activity eq $_, keys %activity_weight;
     for my $skill ( split /,/, $skills ) {
         push @{ $activities{$skill} },
-          { name => $activity, url => $url, date => $date };
+          { name => $activity, note => $note, url => $url, date => $date };
     }
 }
 close $FH;
@@ -128,10 +128,10 @@ sub print_skill {
     print "* $skill ($rating{$skill}{score}): ";
     my @activities;
     for ( @{ $activities{$skill} } ) {
-        my $url = $_->{url} =~ /^http/
-          ? "[$_->{name}]($_->{url})"   # real URL
-          : "$_->{name} ($_->{url})";   # note, script name, book title, ...
-        push @activities, "$_->{date} - $url";
+        my $what = (defined $_->{url} and $_->{url} =~ /^http/)
+          ? "$_->{name} [$_->{note}]($_->{url})"   # we got URL
+          : "$_->{name} $_->{note}";               # no URL
+        push @activities, "$_->{date} - $what";
     }
     print join ", ", @activities;
     print "\n";
