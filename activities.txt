@@ -1,21 +1,87 @@
-#skill[,skill,...]|done_activity|URL or Note|YYYY[-MM]
-Python,Net|read_book|http://www.apress.com/gp/book/9781430258544|2017-09
-DevOps,Mngt|wrote_blog|http://jreisinger.blogspot.sk/2017/07/devops.html|2017-07
-Varia|read_book|The Return of the King|2017-06
-C|read_book|https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410|2017-05
-Python|read_book|http://greenteapress.com/wp/think-python-2e/|2017-05
-Algorithms|read_book|https://www.manning.com/books/grokking-algorithms|2017-03
-Perl|wrote_q&a|http://perlmonks.org/?node_id=1184546|2017-03
-Python|read_book|https://www.nostarch.com/pythoncrashcourse|2017-03
-Perl|wrote_script|check_ossec|2017-01
-Perl|wrote_script|cat-ossec-keys|2017-01
-Shell|wrote_script|https://github.com/skx/sysadmin-util/issues/17|2016
-Perl|wrote_script|https://github.com/jreisinger/checkprocs|2016
-Linux|read_book|https://www.nostarch.com/howlinuxworks2|2016
-Perl|read_book|https://www.intermediateperl.com/|2016
-Mngt,DevOps|read_book|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)|2016
-Python|wrote_script|https://github.com/jreisinger/sys/blob/master/monitor.py|2016-12
-Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/module-build.md|2016-10
-Perl|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md|2016-09
-Sec|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md|2016-05
-Tools|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md|2016-05
+#skill[,skill,...]|YYYY[-MM]|done_activity|URL or Note
+Go|2018-12|watched|Introduction to Go Programming (for the 3rd time)|https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871
+NonTech|2018-12|read_book|Letmý Sneh|https://www.martinus.sk/?uItem=183781
+Go,Perl|2018-12|wrote_blog|Camel vs. Gopher|https://perlmonks.org/?node_id=1226977
+Bash|2018-10|wrote_q&a|Q&A|https://stackoverflow.com/questions/4632028/how-to-create-a-temporary-directory/53063602#53063602
+Go|2018-10|watched|Introduction to Go Programming (for the 2nd time)|https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871
+Perl|2018-09|wrote_script|Perl One Liners|https://jreisinger.github.io/notes/posts/perl-one-liners/
+Ansible|2018-09|built|alarm|https://github.com/jreisinger/alarm
+Go|2018-09|wrote_script|several small Golang programs
+Go|2018-09|read_book|several Golang resources (books, videos)
+NonTech|2018-08|took|1 week vacation (with Pete UK)
+Ansible,Prometheus|2018-08|built|Prometheus alerts and Ansible playbooks for checking free IP addresses
+Bash,Perl|2018-08|wrote_script|Bash and Perl scripts for checking free IP addresses
+NonTech|2018-07|presented|LBaaS
+K8s|2018-07|wrote_blog|Kubernetes|https://github.com/jreisinger/blog/blob/master/posts/kubernetes.md
+NonTech|2018-07|took|2.5 week vacation
+Perl|2018-06|wrote_script|quotes|https://github.com/jreisinger/quotes
+Python|2018-06|read_book|Introducing Python|https://www.safaribooksonline.com/library/view/introducing-python/9781449361167/
+Docker|2018-06|presented|Containers (Campus)
+NonTech|2018-06|read_book|Povoláním člověk
+Ansible|2018-05|wrote_blog|QaA|https://stackoverflow.com/questions/50394912/ansible-is-connecting-to-the-wrong-hosts-when-using-jump-host
+Perl|2018-04|wrote_script|Naxsi logs parsing script in Perl
+Bash|2018-04|wrote_script|Bash wrapper scripts for wafaas, netsec-containers
+Perl|2018-04|wrote_script|profesia-jobs|https://github.com/jreisinger/profesia-jobs
+Docker|2018-04|presented|Docker swarm
+Docker|2018-04|presented|Limiting a Docker container's memory resource|https://gist.github.com/jreisinger/2f87098558d541cdbb7eb30b86163c39
+Go|2018-03|read_book|Introducing Go
+Python|2018-03|attended_conf|PyCon|https://2018.pycon.sk
+Sec|2018-02|attended_conf|2 day Metasploit training
+Http|2017-12|built|Naxsi 0.1.0
+Python|2017-12|wrote_script|Cog bundle for Naxsi (naxsi_status.py)
+DevOps|2017-12|attended_conf|Google Cloud Summit|https://cloudplatformonline.com/Summit-Munich-2017.html
+Python|2017-11|read_book|LPTHW|https://learnpythonthehardway.org/python3/
+Perl|2017-11|wrote_script|have-done|https://github.com/jreisinger/have-done
+Python|2017-10|attended_conf|OpenSlava|http://www.openslava.sk/2017
+Python,Net|2017-09|read_book|Foundations of Python Network Programming|http://www.apress.com/gp/book/9781430258544
+Python|2017-08|wrote_script|gendoc
+DevOps|2017-07|wrote_blog|Devops|http://jreisinger.blogspot.sk/2017/07/devops.html
+NonTech|2017-06|read_book|The Return of the King|
+C|2017-05|read_book|Programming in C|https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410
+Python|2017-05|read_book|Think Python|http://greenteapress.com/wp/think-python-2e/
+Algorithms|2017-03|read_book|Grokking Algorithms|https://www.manning.com/books/grokking-algorithms
+Perl|2017-03|wrote_blog|PM post|http://perlmonks.org/?node_id=1184546
+Python|2017-03|read_book|Python Crash Course|https://www.nostarch.com/pythoncrashcourse
+Perl|2017-01|wrote_script|check_ossec|
+Perl|2017-01|wrote_script|cat-ossec-keys|
+Bash|2016|wrote_script|ssh-test|https://github.com/skx/sysadmin-util/issues/17
+Perl|2016|wrote_script|checkprocs|https://github.com/jreisinger/checkprocs
+Linux|2016|read_book|How Linux Works|https://www.nostarch.com/howlinuxworks2
+Perl|2016|read_book|Intermediate Perl|https://www.intermediateperl.com/
+Perl|2016|read_book|The Phonenix Project|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)
+Python|2016-12|wrote_script|monitor.py|https://github.com/jreisinger/sys/blob/master/monitor.py
+Perl|2016-10|wrote_blog|module-build|https://github.com/jreisinger/blog/blob/master/posts/module-build.md
+Perl|2016-09|wrote_blog|CPAN|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md
+Sec|2016-05|wrote_blog|tcpdump|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md
+DevOps|2016-05|wrote_blog|Vagrant|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md
+Perl|2013-09|wrote_script|sysadmin utility belt|https://github.com/jreisinger/MyUtils
+Perl|2013-09|wrote_script|teacher|https://github.com/jreisinger/teacher
+Perl|2013-08|wrote_script|Otter scripts|https://github.com/jreisinger/linux/tree/master/otter
+Perl|2013-07|wrote_script|monitor|https://github.com/jreisinger/monitor
+Perl|2013-07|wrote_script|shell over HTTP|https://github.com/jreisinger/http-sh
+Perl|2013-06|wrote_script|geo-locate-ip.pl|https://github.com/jreisinger/linux/blob/master/geo-locate-ip.pl
+Perl|2013-05|wrote_script|dlznik.pl|https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl
+NonTech|2013-03|read_book|L. Wall on Perl, religion, and...|http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and
+Perl|2013-03|wrote_script|orsr|https://github.com/jreisinger/audit/tree/master/orsr
+Perl|2010-03|read_book|Llama Book
+Bash|2008-12|read_book|Classic Shell Scripting|
+Python,Net|2017-09|read_book|http://www.apress.com/gp/book/9781430258544
+DevOps,Mngt|2017-09|wrote_blog|http://jreisinger.blogspot.sk/2017/07/devops.html
+NonTech|2017-06|read_book|The Return of the King
+C|2017-05|read_book|https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410
+Python|2017-05|read_book|http://greenteapress.com/wp/think-python-2e/
+Algorithms|2017-03|read_book|https://www.manning.com/books/grokking-algorithms
+Perl|2017-03|wrote_q&a|http://perlmonks.org/?node_id=1184546
+Python|2017-03|read_book|https://www.nostarch.com/pythoncrashcourse
+Perl|2017-01|wrote_script|check_ossec
+Perl|2017-01|wrote_script|cat-ossec-keys
+Shell|2016|wrote_script|https://github.com/skx/sysadmin-util/issues/17
+Perl|2016|wrote_script|https://github.com/jreisinger/checkprocs
+Linux|2016|read_book|https://www.nostarch.com/howlinuxworks2
+Perl|2016|read_book|https://www.intermediateperl.com/
+Mngt,DevOps|2016|read_book|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)
+Python|2016-12|wrote_script|https://github.com/jreisinger/sys/blob/master/monitor.py
+Perl|2016-10|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/module-build.md
+Perl|2016-09|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md
+Sec|2016-05|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md
+Tools|2016-05|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md

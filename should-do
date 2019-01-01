@@ -18,10 +18,14 @@ my %activity_weight = (
     'wrote_q&a'   => 1,     # ~ 1 pomodoro, i.e. 25 mins
     wrote_blog    => 2,
     wrote_script  => 4,
+    built         => 16,
+    presented     => 16,
     read_book     => 30,    # ~ 30 pomodoros, i.e. 12.5 hour
     wrote_prog    => 30,
+    watched       => 30,
     attended_conf => 60,
     got_cert      => 60,
+    took          => 60,
 );
 
 # What I have done
@@ -34,7 +38,7 @@ my %activities;
 while (<$FH>) {
     next if /^\s*#/;
     chomp;
-    my ( $skills, $activity, $url, $date ) = split /\|/;
+    my ( $skills, $date, $activity, $url ) = split /\|/;
     die
       "Unknown activity '$activity' at line $. of '$activities_file' file. Exiting ...\n"
       unless grep $activity eq $_, keys %activity_weight;
