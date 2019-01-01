@@ -4,7 +4,7 @@ NonTech|2018-12|read_book|Letmý Sneh|https://www.martinus.sk/?uItem=183781
 Go,Perl|2018-12|wrote_blog|Camel vs. Gopher|https://perlmonks.org/?node_id=1226977
 Bash|2018-10|wrote_q&a|Q&A|https://stackoverflow.com/questions/4632028/how-to-create-a-temporary-directory/53063602#53063602
 Go|2018-10|watched|Introduction to Go Programming (for the 2nd time)|https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871
-Perl|2018-09|wrote_script|Perl One Liners|https://jreisinger.github.io/notes/posts/perl-one-liners/
+Perl|2018-09|wrote_blog|Perl One Liners|https://jreisinger.github.io/notes/posts/perl-one-liners/
 Ansible|2018-09|built|alarm|https://github.com/jreisinger/alarm
 Go|2018-09|wrote_script|several small Golang programs
 Go|2018-09|read_book|several Golang resources (books, videos)
