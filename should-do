@@ -36,17 +36,24 @@ open my $FH, $activities_file or die "Can't open $activities_file: $!\n";
 
 # Read in all the activities I have done
 my %activities;
+my %years;
 while (<$FH>) {
     next if /^\s*#/;
     chomp;
+
     my ( $skills, $date, $activity, $note, $url ) = split /\|/;
     die
       "Unknown activity '$activity' at line $. of '$activities_file' file. Exiting ...\n"
       unless grep $activity eq $_, keys %activity_weight;
+
     for my $skill ( split /,/, $skills ) {
         push @{ $activities{$skill} },
           { name => $activity, note => $note, url => $url, date => $date };
     }
+
+    my ($year) = ($date =~ /^(\d{4})/);
+    push @{ $years{$year} },
+        { name => $activity, note => $note, url => $url, date => $date };
 }
 close $FH;
 
@@ -118,6 +125,16 @@ for my $skill ( reverse @sorted_skills )
 {
     next if grep $skill eq $_, @wanted_skills;
     print_skill($skill);
+}
+
+for my $year (reverse sort keys %years) {
+    print "\nYou have done these in $year:\n\n";
+    for (@{ $years{$year} }) {
+        my $what = (defined $_->{url} and $_->{url} =~ /^http/)
+          ? "$_->{name} [$_->{note}]($_->{url})"   # we got URL
+          : "$_->{name} $_->{note}";               # no URL
+        print "* $_->{date} $what\n";
+    }
 }
 
 # Functions ...
