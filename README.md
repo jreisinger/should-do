@@ -43,7 +43,7 @@ You have also done:
 * Shell (4): 2016 - wrote_script https://github.com/skx/sysadmin-util/issues/17
 * Tools (2): 2016-05 - wrote_blog https://github.com/jreisinger/blog/blob/master/posts/vagrant.md
 
-You have done these in 2018:
+You have recorded 28 activities in 2018:
 
 * 2018-12 watched [Introduction to Go Programming (for the 3rd time)](https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871)
 * 2018-12 read_book [Letmý Sneh](https://www.martinus.sk/?uItem=183781)
@@ -74,7 +74,7 @@ You have done these in 2018:
 * 2018-03 attended_conf [PyCon](https://2018.pycon.sk)
 * 2018-02 attended_conf 2 day Metasploit training
 
-You have done these in 2017:
+You have recorded 27 activities in 2017:
 
 * 2017-12 built Naxsi 0.1.0
 * 2017-12 wrote_script Cog bundle for Naxsi (naxsi_status.py)
@@ -104,7 +104,7 @@ You have done these in 2017:
 * 2017-01 wrote_script check_ossec
 * 2017-01 wrote_script cat-ossec-keys
 
-You have done these in 2016:
+You have recorded 19 activities in 2016:
 
 * 2016 wrote_script [ssh-test](https://github.com/skx/sysadmin-util/issues/17)
 * 2016 wrote_script [checkprocs](https://github.com/jreisinger/checkprocs)
@@ -126,7 +126,7 @@ You have done these in 2016:
 * 2016-09 wrote_blog https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md
 * 2016-05 wrote_blog https://github.com/jreisinger/blog/blob/master/posts/vagrant.md
 
-You have done these in 2013:
+You have recorded 9 activities in 2013:
 
 * 2013-09 wrote_script [sysadmin utility belt](https://github.com/jreisinger/MyUtils)
 * 2013-09 wrote_script [teacher](https://github.com/jreisinger/teacher)
@@ -138,10 +138,10 @@ You have done these in 2013:
 * 2013-03 read_book [L. Wall on Perl, religion, and...](http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and)
 * 2013-03 wrote_script [orsr](https://github.com/jreisinger/audit/tree/master/orsr)
 
-You have done these in 2010:
+You have recorded 1 activities in 2010:
 
 * 2010-03 read_book Llama Book
 
-You have done these in 2008:
+You have recorded 1 activities in 2008:
 
 * 2008-12 read_book Classic Shell Scripting
