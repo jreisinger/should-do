@@ -26,7 +26,7 @@ my %activity_weight = (
     watched       => 30,
     attended_conf => 60,
     got_cert      => 60,
-    took          => 60,
+    took_vacation => 60,
 );
 
 # What I have done

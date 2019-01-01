@@ -8,12 +8,12 @@ Perl|2018-09|wrote_script|Perl One Liners|https://jreisinger.github.io/notes/pos
 Ansible|2018-09|built|alarm|https://github.com/jreisinger/alarm
 Go|2018-09|wrote_script|several small Golang programs
 Go|2018-09|read_book|several Golang resources (books, videos)
-NonTech|2018-08|took|1 week vacation (with Pete UK)
+NonTech|2018-08|took_vacation|1 week vacation (with Pete UK)
 Ansible,Prometheus|2018-08|built|Prometheus alerts and Ansible playbooks for checking free IP addresses
 Bash,Perl|2018-08|wrote_script|Bash and Perl scripts for checking free IP addresses
 NonTech|2018-07|presented|LBaaS
 K8s|2018-07|wrote_blog|Kubernetes|https://github.com/jreisinger/blog/blob/master/posts/kubernetes.md
-NonTech|2018-07|took|2.5 week vacation
+NonTech|2018-07|took_vacation|2.5 week vacation
 Perl|2018-06|wrote_script|quotes|https://github.com/jreisinger/quotes
 Python|2018-06|read_book|Introducing Python|https://www.safaribooksonline.com/library/view/introducing-python/9781449361167/
 Docker|2018-06|presented|Containers (Campus)
