@@ -4,15 +4,17 @@ NOTE: this file was **generated** by `./should-do`.
 There's always more to learn. -- ULSAH, 5th
 
 You earn your living by having enough knowledge (theory) and experience
-(practice). However, these are expiring assets so you have to keep them fresh.
-While honing your knowledge keep in mind these principles (based on The Pragmatic Programmer):
+(practice). However, these are expiring assets so you have to keep them fresh
+by applying these principles (based on The Pragmatic Programmer):
 
-* Invest regularly - the *habit* itself is as important as the amount
+* Invest regularly - make learning a *habit* (it is as important as the amount)
 * Diversify - know the ins and outs of the technology you are working with
-  currently but *don't stop* there
+  currently but don't stop there
 * Stay current - read news, take classes, go to conferences
 * Contribute - QaA, blogs, code
-* Review and rebalance
+* Review and rebalance - this is a very dynamic industry
+* *Think* critically about what you read and hear - be aware of vendors
+  interests, media hype, dogma and your project
 
 The following activities are being tracked here: attended_conf (60), got_cert (60), took (60), read_book (30), watched (30), wrote_prog (30), built (16), presented (16), wrote_script (4), wrote_blog (2), wrote_q&a (1).
 
