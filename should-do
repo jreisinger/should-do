@@ -128,7 +128,7 @@ for my $skill ( reverse @sorted_skills )
 }
 
 for my $year (reverse sort keys %years) {
-    print "\nYou have done these in $year:\n\n";
+    printf "\nYou have recorded %d activities in %d:\n\n", scalar @{ $years{$year} }, $year;
     for (@{ $years{$year} }) {
         my $what = (defined $_->{url} and $_->{url} =~ /^http/)
           ? "$_->{name} [$_->{note}]($_->{url})"   # we got URL
