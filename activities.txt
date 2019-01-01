@@ -1,4 +1,4 @@
-#skill[,skill,...]|YYYY[-MM]|done_activity|URL or Note
+#skill[,skill,...]|YYYY[-MM]|done_activity|Note[|URL]
 Go|2018-12|watched|Introduction to Go Programming (for the 3rd time)|https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871
 NonTech|2018-12|read_book|Letmý Sneh|https://www.martinus.sk/?uItem=183781
 Go,Perl|2018-12|wrote_blog|Camel vs. Gopher|https://perlmonks.org/?node_id=1226977
@@ -83,5 +83,4 @@ Mngt,DevOps|2016|read_book|https://en.wikipedia.org/wiki/The_Phoenix_Project_(no
 Python|2016-12|wrote_script|https://github.com/jreisinger/sys/blob/master/monitor.py
 Perl|2016-10|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/module-build.md
 Perl|2016-09|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md
-Sec|2016-05|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md
 Tools|2016-05|wrote_blog|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md

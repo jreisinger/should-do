@@ -23,7 +23,7 @@ The skills you should be working on:
 * K8s (2): 2018-07 - wrote_blog (Kubernetes)
 * Docker (48): 2018-06 - presented (Containers (Campus)), 2018-04 - presented (Docker swarm), 2018-04 - presented (Limiting a Docker container's memory resource)
 * Net (60): 2017-09 - read_book (Foundations of Python Network Programming), 2017-09 - [read_book](http://www.apress.com/gp/book/9781430258544)
-* Sec (64): 2018-02 - attended_conf (2 day Metasploit training), 2016-05 - wrote_blog (tcpdump), 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
+* Sec (62): 2018-02 - attended_conf (2 day Metasploit training), 2016-05 - wrote_blog (tcpdump)
 * DevOps (96): 2017-12 - attended_conf (Google Cloud Summit), 2017-07 - wrote_blog (Devops), 2016-05 - wrote_blog (Vagrant), 2017-09 - [wrote_blog](http://jreisinger.blogspot.sk/2017/07/devops.html), 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
 * Mngt (96): 2017-12 - attended_conf (Google Cloud Summit), 2017-07 - wrote_blog (Devops), 2016-05 - wrote_blog (Vagrant), 2017-09 - [wrote_blog](http://jreisinger.blogspot.sk/2017/07/devops.html), 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
 * Go (126): 2018-12 - watched (Introduction to Go Programming (for the 3rd time)), 2018-12 - wrote_blog (Camel vs. Gopher), 2018-10 - watched (Introduction to Go Programming (for the 2nd time)), 2018-09 - wrote_script (several small Golang programs), 2018-09 - read_book (several Golang resources (books, videos)), 2018-03 - read_book (Introducing Go)
