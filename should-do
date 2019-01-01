@@ -4,13 +4,14 @@ use warnings;
 
 # Skills I want to hone
 my @wanted_skills = qw(
-  Algorithms
-  Linux
   Net
-  Bash
   Python
   Sec
   Go
+  DevOps
+  Docker
+  Mngt
+  K8s
 );
 
 # Activities that help me hone the skills
