@@ -1,4 +1,4 @@
-NOTE: this file was **generated** by `should-do`.
+NOTE: this file was **generated** by `./should-do`.
 
 > Read the manuals from front to back, then regularly read books and blogs.
 There's always more to learn. -- ULSAH, 5th
@@ -18,19 +18,18 @@ The following activities are being tracked here: attended_conf (60), got_cert (6
 
 The skills you should be working on:
 
-* vim (0): 
 * Bash (43): 2018-10 - wrote_q&a (Q&A), 2018-08 - wrote_script (Bash and Perl scripts for checking free IP addresses), 2018-04 - wrote_script (Bash wrapper scripts for wafaas, netsec-containers), 2016 - wrote_script (ssh-test), 2008-12 - read_book (Classic Shell Scripting)
 * Linux (60): 2016 - read_book (How Linux Works), 2016 - [read_book](https://www.nostarch.com/howlinuxworks2)
 * Algorithms (60): 2017-03 - read_book (Grokking Algorithms), 2017-03 - [read_book](https://www.manning.com/books/grokking-algorithms)
 * Net (60): 2017-09 - read_book (Foundations of Python Network Programming), 2017-09 - [read_book](http://www.apress.com/gp/book/9781430258544)
 * Sec (64): 2018-02 - attended_conf (2 day Metasploit training), 2016-05 - wrote_blog (tcpdump), 2016-05 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
+* Go (126): 2018-12 - watched (Introduction to Go Programming (for the 3rd time)), 2018-12 - wrote_blog (Camel vs. Gopher), 2018-10 - watched (Introduction to Go Programming (for the 2nd time)), 2018-09 - wrote_script (several small Golang programs), 2018-09 - read_book (several Golang resources (books, videos)), 2018-03 - read_book (Introducing Go)
 * Python (376): 2018-06 - read_book (Introducing Python), 2018-03 - attended_conf (PyCon), 2017-12 - wrote_script (Cog bundle for Naxsi (naxsi_status.py)), 2017-11 - read_book (LPTHW), 2017-10 - attended_conf (OpenSlava), 2017-09 - read_book (Foundations of Python Network Programming), 2017-08 - wrote_script (gendoc), 2017-05 - read_book (Think Python), 2017-03 - read_book (Python Crash Course), 2016-12 - wrote_script (monitor.py), 2017-09 - [read_book](http://www.apress.com/gp/book/9781430258544), 2017-05 - [read_book](http://greenteapress.com/wp/think-python-2e/), 2017-03 - [read_book](https://www.nostarch.com/pythoncrashcourse), 2016-12 - [wrote_script](https://github.com/jreisinger/sys/blob/master/monitor.py)
 
 You have also done:
 
 * NonTech (286): 2018-12 - read_book (Letmý Sneh), 2018-08 - took (1 week vacation (with Pete UK)), 2018-07 - presented (LBaaS), 2018-07 - took (2.5 week vacation), 2018-06 - read_book (Povoláním člověk), 2017-06 - read_book (The Return of the King), 2013-03 - read_book (L. Wall on Perl, religion, and...), 2017-06 - read_book (The Return of the King)
 * Perl (213): 2018-12 - wrote_blog (Camel vs. Gopher), 2018-09 - wrote_script (Perl One Liners), 2018-08 - wrote_script (Bash and Perl scripts for checking free IP addresses), 2018-06 - wrote_script (quotes), 2018-04 - wrote_script (Naxsi logs parsing script in Perl), 2018-04 - wrote_script (profesia-jobs), 2017-11 - wrote_script (have-done), 2017-03 - wrote_blog (PM post), 2017-01 - wrote_script (check_ossec), 2017-01 - wrote_script (cat-ossec-keys), 2016 - wrote_script (checkprocs), 2016 - read_book (Intermediate Perl), 2016 - read_book (The Phonenix Project), 2016-10 - wrote_blog (module-build), 2016-09 - wrote_blog (CPAN), 2013-09 - wrote_script (sysadmin utility belt), 2013-09 - wrote_script (teacher), 2013-08 - wrote_script (Otter scripts), 2013-07 - wrote_script (monitor), 2013-07 - wrote_script (shell over HTTP), 2013-06 - wrote_script (geo-locate-ip.pl), 2013-05 - wrote_script (dlznik.pl), 2013-03 - wrote_script (orsr), 2010-03 - read_book (Llama Book), 2017-03 - [wrote_q&a](http://perlmonks.org/?node_id=1184546), 2017-01 - wrote_script (check_ossec), 2017-01 - wrote_script (cat-ossec-keys), 2016 - [wrote_script](https://github.com/jreisinger/checkprocs), 2016 - [read_book](https://www.intermediateperl.com/), 2016-10 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/module-build.md), 2016-09 - [wrote_blog](https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md)
-* Go (126): 2018-12 - watched (Introduction to Go Programming (for the 3rd time)), 2018-12 - wrote_blog (Camel vs. Gopher), 2018-10 - watched (Introduction to Go Programming (for the 2nd time)), 2018-09 - wrote_script (several small Golang programs), 2018-09 - read_book (several Golang resources (books, videos)), 2018-03 - read_book (Introducing Go)
 * DevOps (96): 2017-12 - attended_conf (Google Cloud Summit), 2017-07 - wrote_blog (Devops), 2016-05 - wrote_blog (Vagrant), 2017-09 - [wrote_blog](http://jreisinger.blogspot.sk/2017/07/devops.html), 2016 - [read_book](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel))
 * C (60): 2017-05 - read_book (Programming in C), 2017-05 - [read_book](https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410)
 * Docker (48): 2018-06 - presented (Containers (Campus)), 2018-04 - presented (Docker swarm), 2018-04 - presented (Limiting a Docker container's memory resource)

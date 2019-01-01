@@ -8,9 +8,9 @@ my @wanted_skills = qw(
   Linux
   Net
   Bash
-  vim
   Python
   Sec
+  Go
 );
 
 # Activities that help me hone the skills
