@@ -1,4 +1,6 @@
 #skill[,skill,...]|YYYY[-MM]|done_activity|Note[|URL]
+Go|2019-01|read_chapter|2. Program Structure|https://www.gopl.io/
+Go|2019-01|read_chapter|1. Tutorial|https://www.gopl.io/
 Net,Python|2019-01|read_chapter|HTTP Clients|http://www.apress.com/gp/book/9781430258544
 Go|2018-12|watched|Introduction to Go Programming (for the 3rd time)|https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871
 NonTech|2018-12|read_book|Letmý Sneh|https://www.martinus.sk/?uItem=183781
