@@ -1,4 +1,5 @@
 #skill[,skill,...]|YYYY[-MM]|done_activity|Note[|URL]
+Go|2019-01|wrote_script|ex1.11|https://github.com/torbiak/gopl/pull/10/commits/8b1e870590e460d4c04463d456e41c2f57f54be7
 Go|2019-01|read_chapter|2. Program Structure|https://www.gopl.io/
 Go|2019-01|read_chapter|1. Tutorial|https://www.gopl.io/
 Net,Python|2019-01|read_chapter|HTTP Clients|http://www.apress.com/gp/book/9781430258544
