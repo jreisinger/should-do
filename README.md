@@ -1,4 +1,4 @@
-NOTE: this file was **generated** by `./should-do`.
+NOTE: this file was **generated** by `should-do`.
 
 > Read the manuals from front to back, then regularly read books and blogs.
 There's always more to learn. -- ULSAH, 5th
