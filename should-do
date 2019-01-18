@@ -15,6 +15,7 @@ my @wanted_skills = qw(
 my %activity_weight = (
     'wrote_q&a'   => 1,     # ~ 1 pomodoro, i.e. 25 mins
     wrote_blog    => 2,
+    read_chapter  => 2,
     wrote_script  => 4,
     built         => 16,
     presented     => 16,
