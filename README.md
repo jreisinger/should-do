@@ -16,15 +16,15 @@ by applying these principles (based on The Pragmatic Programmer):
 * *Think* critically about what you read and hear - be aware of vendors
   interests, media hype, dogma and your project
 
-The following activities are being tracked here: attended_conf (60), got_cert (60), took_vacation (60), read_book (30), watched (30), wrote_prog (30), built (16), presented (16), wrote_script (4), wrote_blog (2), wrote_q&a (1).
+The following activities are being tracked here: attended_conf (60), got_cert (60), took_vacation (60), read_book (30), watched (30), wrote_prog (30), built (16), presented (16), wrote_script (4), read_chapter (2), wrote_blog (2), wrote_q&a (1).
 
 The skills you should be working on:
 
-* Net (30): 2017-09 - read_book [Foundations of Python Network Programming](http://www.apress.com/gp/book/9781430258544)
+* Net (32): 2019-01 - read_chapter [HTTP Clients](http://www.apress.com/gp/book/9781430258544), 2017-09 - read_book [Foundations of Python Network Programming](http://www.apress.com/gp/book/9781430258544)
 * K8s (50): 2018-07 - wrote_blog [Kubernetes](https://github.com/jreisinger/blog/blob/master/posts/kubernetes.md), 2018-06 - presented Containers (Campus), 2018-04 - presented Docker swarm, 2018-04 - presented [Limiting a Docker container's memory resource](https://gist.github.com/jreisinger/2f87098558d541cdbb7eb30b86163c39)
 * Mngt (62): 2017-12 - attended_conf [Google Cloud Summit](https://cloudplatformonline.com/Summit-Munich-2017.html), 2017-07 - wrote_blog [Devops](http://jreisinger.blogspot.sk/2017/07/devops.html)
 * Go (126): 2018-12 - watched [Introduction to Go Programming (for the 3rd time)](https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871), 2018-12 - wrote_blog [Camel vs. Gopher](https://perlmonks.org/?node_id=1226977), 2018-10 - watched [Introduction to Go Programming (for the 2nd time)](https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871), 2018-09 - wrote_script several small Golang programs, 2018-09 - read_book several Golang resources (books, videos), 2018-03 - read_book Introducing Go
-* Python (282): 2018-06 - read_book [Introducing Python](https://www.safaribooksonline.com/library/view/introducing-python/9781449361167/), 2018-03 - attended_conf [PyCon](https://2018.pycon.sk), 2017-12 - wrote_script Cog bundle for Naxsi (naxsi_status.py), 2017-11 - read_book [LPTHW](https://learnpythonthehardway.org/python3/), 2017-10 - attended_conf [OpenSlava](http://www.openslava.sk/2017), 2017-09 - read_book [Foundations of Python Network Programming](http://www.apress.com/gp/book/9781430258544), 2017-08 - wrote_script gendoc, 2017-05 - read_book [Think Python](http://greenteapress.com/wp/think-python-2e/), 2017-03 - read_book [Python Crash Course](https://www.nostarch.com/pythoncrashcourse), 2016-12 - wrote_script [monitor.py](https://github.com/jreisinger/sys/blob/master/monitor.py)
+* Python (284): 2019-01 - read_chapter [HTTP Clients](http://www.apress.com/gp/book/9781430258544), 2018-06 - read_book [Introducing Python](https://www.safaribooksonline.com/library/view/introducing-python/9781449361167/), 2018-03 - attended_conf [PyCon](https://2018.pycon.sk), 2017-12 - wrote_script Cog bundle for Naxsi (naxsi_status.py), 2017-11 - read_book [LPTHW](https://learnpythonthehardway.org/python3/), 2017-10 - attended_conf [OpenSlava](http://www.openslava.sk/2017), 2017-09 - read_book [Foundations of Python Network Programming](http://www.apress.com/gp/book/9781430258544), 2017-08 - wrote_script gendoc, 2017-05 - read_book [Think Python](http://greenteapress.com/wp/think-python-2e/), 2017-03 - read_book [Python Crash Course](https://www.nostarch.com/pythoncrashcourse), 2016-12 - wrote_script [monitor.py](https://github.com/jreisinger/sys/blob/master/monitor.py)
 
 You have also done:
 
@@ -39,6 +39,10 @@ You have also done:
 * Linux (30): 2016 - read_book [How Linux Works](https://www.nostarch.com/howlinuxworks2)
 * Prometheus (16): 2018-08 - built Prometheus alerts and Ansible playbooks for checking free IP addresses
 * Http (16): 2017-12 - built Naxsi 0.1.0
+
+You have recorded 1 activities in 2019:
+
+* 2019-01 read_chapter [HTTP Clients](http://www.apress.com/gp/book/9781430258544)
 
 You have recorded 28 activities in 2018:
 
