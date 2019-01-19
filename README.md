@@ -20,7 +20,7 @@ The following activities are being tracked here: attended_conf (60), got_cert (6
 
 The skills you should be working on:
 
-* Net (32): 2019-01 - read_chapter [HTTP Clients](http://www.apress.com/gp/book/9781430258544), 2017-09 - read_book [Foundations of Python Network Programming](http://www.apress.com/gp/book/9781430258544)
+* Net (48): 2019-01 - read_chapter [HTTP Clients](http://www.apress.com/gp/book/9781430258544), 2017-12 - built Naxsi 0.1.0, 2017-09 - read_book [Foundations of Python Network Programming](http://www.apress.com/gp/book/9781430258544)
 * K8s (50): 2018-07 - wrote_blog [Kubernetes](https://github.com/jreisinger/blog/blob/master/posts/kubernetes.md), 2018-06 - presented Containers (Campus), 2018-04 - presented Docker swarm, 2018-04 - presented [Limiting a Docker container's memory resource](https://gist.github.com/jreisinger/2f87098558d541cdbb7eb30b86163c39)
 * Mngt (62): 2017-12 - attended_conf [Google Cloud Summit](https://cloudplatformonline.com/Summit-Munich-2017.html), 2017-07 - wrote_blog [Devops](http://jreisinger.blogspot.sk/2017/07/devops.html)
 * Go (134): 2019-01 - wrote_script [ex1.11](https://github.com/torbiak/gopl/pull/10/commits/8b1e870590e460d4c04463d456e41c2f57f54be7), 2019-01 - read_chapter [2. Program Structure](https://www.gopl.io/), 2019-01 - read_chapter [1. Tutorial](https://www.gopl.io/), 2018-12 - watched [Introduction to Go Programming (for the 3rd time)](https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871), 2018-12 - wrote_blog [Camel vs. Gopher](https://perlmonks.org/?node_id=1226977), 2018-10 - watched [Introduction to Go Programming (for the 2nd time)](https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871), 2018-09 - wrote_script several small Golang programs, 2018-09 - read_book several Golang resources (books, videos), 2018-03 - read_book Introducing Go
@@ -28,7 +28,7 @@ The skills you should be working on:
 
 You have also done:
 
-* NonTech (256): 2018-12 - read_book [Letmý Sneh](https://www.martinus.sk/?uItem=183781), 2018-08 - took_vacation 1 week vacation (with Pete UK), 2018-07 - presented LBaaS, 2018-07 - took_vacation 2.5 week vacation, 2018-06 - read_book Povoláním člověk, 2017-06 - read_book The Return of the King, 2013-03 - read_book [L. Wall on Perl, religion, and...](http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and)
+* NonTech (228): 2018-12 - read_book [Letmý Sneh](https://www.martinus.sk/?uItem=183781), 2018-08 - took_vacation 1 week vacation (with Pete UK), 2018-07 - presented LBaaS, 2018-07 - took_vacation 2.5 week vacation, 2018-06 - read_book Povoláním člověk, 2017-06 - read_book The Return of the King, 2013-03 - read_chapter [L. Wall on Perl, religion, and...](http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and)
 * Perl (164): 2018-12 - wrote_blog [Camel vs. Gopher](https://perlmonks.org/?node_id=1226977), 2018-09 - wrote_blog [Perl One Liners](https://jreisinger.github.io/notes/posts/perl-one-liners/), 2018-08 - wrote_script Bash and Perl scripts for checking free IP addresses, 2018-06 - wrote_script [quotes](https://github.com/jreisinger/quotes), 2018-04 - wrote_script Naxsi logs parsing script in Perl, 2018-04 - wrote_script [profesia-jobs](https://github.com/jreisinger/profesia-jobs), 2017-11 - wrote_script [have-done](https://github.com/jreisinger/have-done), 2017-03 - wrote_blog [PM post](http://perlmonks.org/?node_id=1184546), 2017-01 - wrote_script check_ossec, 2017-01 - wrote_script cat-ossec-keys, 2016 - wrote_script [checkprocs](https://github.com/jreisinger/checkprocs), 2016 - read_book [Intermediate Perl](https://www.intermediateperl.com/), 2016 - read_book [The Phonenix Project](https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)), 2016-10 - wrote_blog [module-build](https://github.com/jreisinger/blog/blob/master/posts/module-build.md), 2016-09 - wrote_blog [CPAN](https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md), 2013-09 - wrote_script [sysadmin utility belt](https://github.com/jreisinger/MyUtils), 2013-09 - wrote_script [teacher](https://github.com/jreisinger/teacher), 2013-08 - wrote_script [Otter scripts](https://github.com/jreisinger/linux/tree/master/otter), 2013-07 - wrote_script [monitor](https://github.com/jreisinger/monitor), 2013-07 - wrote_script [shell over HTTP](https://github.com/jreisinger/http-sh), 2013-06 - wrote_script [geo-locate-ip.pl](https://github.com/jreisinger/linux/blob/master/geo-locate-ip.pl), 2013-05 - wrote_script [dlznik.pl](https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl), 2013-03 - wrote_script [orsr](https://github.com/jreisinger/audit/tree/master/orsr), 2010-03 - read_book Llama Book
 * DevOps (64): 2017-12 - attended_conf [Google Cloud Summit](https://cloudplatformonline.com/Summit-Munich-2017.html), 2017-07 - wrote_blog [Devops](http://jreisinger.blogspot.sk/2017/07/devops.html), 2016-05 - wrote_blog [Vagrant](https://github.com/jreisinger/blog/blob/master/posts/vagrant.md)
 * Sec (62): 2018-02 - attended_conf 2 day Metasploit training, 2016-05 - wrote_blog [tcpdump](https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md)
@@ -38,7 +38,6 @@ You have also done:
 * Algorithms (30): 2017-03 - read_book [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
 * Linux (30): 2016 - read_book [How Linux Works](https://www.nostarch.com/howlinuxworks2)
 * Prometheus (16): 2018-08 - built Prometheus alerts and Ansible playbooks for checking free IP addresses
-* Http (16): 2017-12 - built Naxsi 0.1.0
 
 You have recorded 4 activities in 2019:
 
@@ -120,7 +119,7 @@ You have recorded 9 activities in 2013:
 * 2013-07 wrote_script [shell over HTTP](https://github.com/jreisinger/http-sh)
 * 2013-06 wrote_script [geo-locate-ip.pl](https://github.com/jreisinger/linux/blob/master/geo-locate-ip.pl)
 * 2013-05 wrote_script [dlznik.pl](https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl)
-* 2013-03 read_book [L. Wall on Perl, religion, and...](http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and)
+* 2013-03 read_chapter [L. Wall on Perl, religion, and...](http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and)
 * 2013-03 wrote_script [orsr](https://github.com/jreisinger/audit/tree/master/orsr)
 
 You have recorded 1 activities in 2010:
