@@ -7,7 +7,6 @@ my @wanted_skills = qw(
   Net
   Python
   Go
-  Mngt
   K8s
 );
 
