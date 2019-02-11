@@ -20,8 +20,8 @@ The following activities are being tracked here: attended_conf (60), got_cert (6
 
 The skills you should be working on:
 
-* K8s (50): 2018-07 - wrote_blog [Kubernetes](https://github.com/jreisinger/blog/blob/master/posts/kubernetes.md), 2018-06 - presented Containers (Campus), 2018-04 - presented Docker swarm, 2018-04 - presented [Limiting a Docker container's memory resource](https://gist.github.com/jreisinger/2f87098558d541cdbb7eb30b86163c39)
 * Net (50): 2019-01 - read_chapter [3. Socket-Level Programming](https://www.apress.com/gp/book/9781484226919), 2019-01 - read_chapter [HTTP Clients](http://www.apress.com/gp/book/9781430258544), 2017-12 - built Naxsi 0.1.0, 2017-09 - read_book [Foundations of Python Network Programming](http://www.apress.com/gp/book/9781430258544)
+* Containers (52): 2019-02 - read_chapter [Understanding Docker](https://www.usenix.org/system/files/login/articles/login_winter17_11_lidl.pdf), 2018-07 - wrote_blog [Kubernetes](https://github.com/jreisinger/blog/blob/master/posts/kubernetes.md), 2018-06 - presented Containers (Campus), 2018-04 - presented Docker swarm, 2018-04 - presented [Limiting a Docker container's memory resource](https://gist.github.com/jreisinger/2f87098558d541cdbb7eb30b86163c39)
 * Go (136): 2019-01 - read_chapter [3. Socket-Level Programming](https://www.apress.com/gp/book/9781484226919), 2019-01 - wrote_script [ex1.11](https://github.com/torbiak/gopl/pull/10/commits/8b1e870590e460d4c04463d456e41c2f57f54be7), 2019-01 - read_chapter [2. Program Structure](https://www.gopl.io/), 2019-01 - read_chapter [1. Tutorial](https://www.gopl.io/), 2018-12 - watched [Introduction to Go Programming (for the 3rd time)](https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871), 2018-12 - wrote_blog [Camel vs. Gopher](https://perlmonks.org/?node_id=1226977), 2018-10 - watched [Introduction to Go Programming (for the 2nd time)](https://www.safaribooksonline.com/videos/introduction-to-go/9781491913871), 2018-09 - wrote_script several small Golang programs, 2018-09 - read_book several Golang resources (books, videos), 2018-03 - read_book Introducing Go
 * Python (284): 2019-01 - read_chapter [HTTP Clients](http://www.apress.com/gp/book/9781430258544), 2018-06 - read_book [Introducing Python](https://www.safaribooksonline.com/library/view/introducing-python/9781449361167/), 2018-03 - attended_conf [PyCon](https://2018.pycon.sk), 2017-12 - wrote_script Cog bundle for Naxsi (naxsi_status.py), 2017-11 - read_book [LPTHW](https://learnpythonthehardway.org/python3/), 2017-10 - attended_conf [OpenSlava](http://www.openslava.sk/2017), 2017-09 - read_book [Foundations of Python Network Programming](http://www.apress.com/gp/book/9781430258544), 2017-08 - wrote_script gendoc, 2017-05 - read_book [Think Python](http://greenteapress.com/wp/think-python-2e/), 2017-03 - read_book [Python Crash Course](https://www.nostarch.com/pythoncrashcourse), 2016-12 - wrote_script [monitor.py](https://github.com/jreisinger/sys/blob/master/monitor.py)
 
@@ -39,8 +39,9 @@ You have also done:
 * Linux (30): 2016 - read_book [How Linux Works](https://www.nostarch.com/howlinuxworks2)
 * Prometheus (16): 2018-08 - built Prometheus alerts and Ansible playbooks for checking free IP addresses
 
-You have recorded 6 activities in 2019:
+You have recorded 7 activities in 2019:
 
+* 2019-02 read_chapter [Understanding Docker](https://www.usenix.org/system/files/login/articles/login_winter17_11_lidl.pdf)
 * 2019-01 read_chapter [3. Socket-Level Programming](https://www.apress.com/gp/book/9781484226919)
 * 2019-01 read_book [To že byl život?](https://www.martinus.sk/?uItem=309414)
 * 2019-01 wrote_script [ex1.11](https://github.com/torbiak/gopl/pull/10/commits/8b1e870590e460d4c04463d456e41c2f57f54be7)
