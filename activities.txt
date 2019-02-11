@@ -1,4 +1,5 @@
 #skill[,skill,...]|YYYY[-MM]|done_activity|Note[|URL]
+Containers|2019-02|read_chapter|Understanding Docker|https://www.usenix.org/system/files/login/articles/login_winter17_11_lidl.pdf
 Go,Net|2019-01|read_chapter|3. Socket-Level Programming|https://www.apress.com/gp/book/9781484226919
 NonTech|2019-01|read_book|To že byl život?|https://www.martinus.sk/?uItem=309414
 Go|2019-01|wrote_script|ex1.11|https://github.com/torbiak/gopl/pull/10/commits/8b1e870590e460d4c04463d456e41c2f57f54be7
@@ -18,18 +19,18 @@ NonTech|2018-08|took_vacation|1 week vacation (with Pete UK)
 Ansible,Prometheus|2018-08|built|Prometheus alerts and Ansible playbooks for checking free IP addresses
 Bash,Perl|2018-08|wrote_script|Bash and Perl scripts for checking free IP addresses
 NonTech|2018-07|presented|LBaaS
-K8s|2018-07|wrote_blog|Kubernetes|https://github.com/jreisinger/blog/blob/master/posts/kubernetes.md
+Containers|2018-07|wrote_blog|Kubernetes|https://github.com/jreisinger/blog/blob/master/posts/kubernetes.md
 NonTech|2018-07|took_vacation|2.5 week vacation
 Perl|2018-06|wrote_script|quotes|https://github.com/jreisinger/quotes
 Python|2018-06|read_book|Introducing Python|https://www.safaribooksonline.com/library/view/introducing-python/9781449361167/
-K8s|2018-06|presented|Containers (Campus)
+Containers|2018-06|presented|Containers (Campus)
 NonTech|2018-06|read_book|Povoláním člověk
 Ansible|2018-05|wrote_blog|QaA|https://stackoverflow.com/questions/50394912/ansible-is-connecting-to-the-wrong-hosts-when-using-jump-host
 Perl|2018-04|wrote_script|Naxsi logs parsing script in Perl
 Bash|2018-04|wrote_script|Bash wrapper scripts for wafaas, netsec-containers
 Perl|2018-04|wrote_script|profesia-jobs|https://github.com/jreisinger/profesia-jobs
-K8s|2018-04|presented|Docker swarm
-K8s|2018-04|presented|Limiting a Docker container's memory resource|https://gist.github.com/jreisinger/2f87098558d541cdbb7eb30b86163c39
+Containers|2018-04|presented|Docker swarm
+Containers|2018-04|presented|Limiting a Docker container's memory resource|https://gist.github.com/jreisinger/2f87098558d541cdbb7eb30b86163c39
 Go|2018-03|read_book|Introducing Go
 Python|2018-03|attended_conf|PyCon|https://2018.pycon.sk
 Sec|2018-02|attended_conf|2 day Metasploit training

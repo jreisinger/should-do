@@ -7,7 +7,7 @@ my @wanted_skills = qw(
   Net
   Python
   Go
-  K8s
+  Containers
 );
 
 # Activities that help me hone the skills
