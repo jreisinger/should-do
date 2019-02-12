@@ -1,4 +1,4 @@
-#skill[,skill,...]|YYYY[-MM]|done_activity|Note[|URL]
+#skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
 Containers|2019-02|read_chapter|Understanding Docker|https://www.usenix.org/system/files/login/articles/login_winter17_11_lidl.pdf
 Go,Net|2019-01|read_chapter|3. Socket-Level Programming|https://www.apress.com/gp/book/9781484226919
 NonTech|2019-01|read_book|To že byl život?|https://www.martinus.sk/?uItem=309414
@@ -51,14 +51,14 @@ Perl|2017-03|wrote_blog|PM post|http://perlmonks.org/?node_id=1184546
 Python|2017-03|read_book|Python Crash Course|https://www.nostarch.com/pythoncrashcourse
 Perl|2017-01|wrote_script|check_ossec|
 Perl|2017-01|wrote_script|cat-ossec-keys|
-Bash|2016|wrote_script|ssh-test|https://github.com/skx/sysadmin-util/issues/17
-Perl|2016|wrote_script|checkprocs|https://github.com/jreisinger/checkprocs
-Linux|2016|read_book|How Linux Works|https://www.nostarch.com/howlinuxworks2
-Perl|2016|read_book|Intermediate Perl|https://www.intermediateperl.com/
-Perl|2016|read_book|The Phonenix Project|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)
 Python|2016-12|wrote_script|monitor.py|https://github.com/jreisinger/sys/blob/master/monitor.py
 Perl|2016-10|wrote_blog|module-build|https://github.com/jreisinger/blog/blob/master/posts/module-build.md
 Perl|2016-09|wrote_blog|CPAN|https://github.com/jreisinger/blog/blob/master/posts/finding-good-cpan-module.md
+Bash|2016-06|wrote_script|ssh-test|https://github.com/skx/sysadmin-util/issues/17
+Perl|2016-06|wrote_script|checkprocs|https://github.com/jreisinger/checkprocs
+Linux|2016-06|read_book|How Linux Works|https://www.nostarch.com/howlinuxworks2
+Perl|2016-06|read_book|Intermediate Perl|https://www.intermediateperl.com/
+Perl|2016-06|read_book|The Phonenix Project|https://en.wikipedia.org/wiki/The_Phoenix_Project_(novel)
 Sec|2016-05|wrote_blog|tcpdump|https://github.com/jreisinger/blog/blob/master/posts/tcpdump.md
 DevOps|2016-05|wrote_blog|Vagrant|https://github.com/jreisinger/blog/blob/master/posts/vagrant.md
 Perl|2013-09|wrote_script|sysadmin utility belt|https://github.com/jreisinger/MyUtils
