@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use Time::Piece;
 
 # Skills I want to hone
 my @wanted_skills = qw(
@@ -60,8 +61,17 @@ for my $skill (keys %activities, @wanted_skills) { # all skills
     $rating{$skill}{score} = 0;
     $rating{$skill}{last_date} = "";
 
+    my $now = localtime;
+
     for my $activity ( @{ $activities{$skill} } ) {
-        $rating{$skill}{score} += $activity_weight{ $activity->{name} };
+
+        # Get age of the activity
+        my $date = Time::Piece->strptime($activity->{date}, '%Y-%m');
+        my $age = $now - $date; # in seconds
+
+        # Add score to the skill based on the activity type and age
+        $rating{$skill}{score} += $activity_weight{ $activity->{name} } - int($age->months);
+
         $rating{$skill}{last_date} = $activity->{date}
             if $activity->{date} gt $rating{$skill}{last_date};
     }
