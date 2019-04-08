@@ -1,4 +1,5 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
+Containers|2019-04|read_chapter|Docker|https://jreisinger.github.io/notes/posts/docker/
 Containers|2019-03|read_chapter|Kubernetes notes|https://github.com/jreisinger/notes/blob/master/content/posts/kubernetes.md
 Containers|2019-02|read_chapter|Understanding Docker|https://www.usenix.org/system/files/login/articles/login_winter17_11_lidl.pdf
 Go,Net|2019-01|read_chapter|3. Socket-Level Programming|https://www.apress.com/gp/book/9781484226919
