@@ -74,5 +74,5 @@ Perl|2013-06|wrote_script|geo-locate-ip.pl|https://github.com/jreisinger/linux/b
 Perl|2013-05|wrote_script|dlznik.pl|https://github.com/jreisinger/audit/blob/master/scripts/dlznik.pl
 NonTech|2013-03|read_chapter|L. Wall on Perl, religion, and...|http://interviews.slashdot.org/story/02/09/06/1343222/larry-wall-on-perl-religion-and
 Perl|2013-03|wrote_script|orsr|https://github.com/jreisinger/audit/tree/master/orsr
-Perl|2010-03|read_book|Llama Book
-Bash|2008-12|read_book|Classic Shell Scripting|
+Perl|2010-03|read_book|Llama Book|https://wiki.reisinge.net/LlamaBook
+Bash|2008-12|read_book|Classic Shell Scripting|https://wiki.reisinge.net/ShellScripting
