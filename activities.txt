@@ -1,4 +1,5 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
+Go,Net|2019-04|wrote_script|TCP server|https://jreisinger.github.io/notes/posts/go-tcp-sockets/
 Containers|2019-04|read_chapter|Kubernetes Ingress|https://kubernetes.io/docs/concepts/services-networking/ingress/
 Containers,Sec,Net|2019-04|attended_workshop|OpenCamp2019|https://www.opencamp.sk/
 Go|2019-04|read_chapter|How to Write Go Code|https://golang.org/doc/code.html
