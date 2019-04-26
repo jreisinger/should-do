@@ -1,4 +1,5 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
+Go|2019-04|wrote_script|throwaway scripts from Introducing Go
 Go|2019-04|wrote_script|throwaway scripts
 Go,Net|2019-04|wrote_script|tcp_server.go|https://jreisinger.github.io/notes/posts/go-tcp-sockets/
 Containers|2019-04|read_chapter|Kubernetes Ingress|https://kubernetes.io/docs/concepts/services-networking/ingress/
