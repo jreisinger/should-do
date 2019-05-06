@@ -1,4 +1,5 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
+Go|2019-05|wrote_blog|Concurrency and Channels|https://jreisinger.github.io/notes/posts/concurrency-and-channels/
 Go|2019-05|wrote_script|throwaway scripts from Introducing Go
 Go|2019-04|wrote_script|throwaway scripts from Introducing Go
 Go|2019-04|wrote_script|throwaway scripts
