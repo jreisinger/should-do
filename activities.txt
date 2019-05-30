@@ -1,6 +1,7 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
 Containers|2019-05|attended_conf|KubeCon 2019 Barcelona|https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/
 Go|2019-05|wrote_prog|tech-terms|https://github.com/jreisinger/tech-terms
+Net|2019-05|built|https for my stuff|httsp://reisinge.net
 Go|2019-05|wrote_blog|Concurrency and Channels|https://jreisinger.github.io/notes/posts/concurrency-and-channels/
 Go|2019-05|wrote_script|throwaway scripts from Introducing Go
 Go|2019-04|wrote_script|throwaway scripts from Introducing Go
