@@ -65,7 +65,7 @@ DevOps,Mngt|2017-07|wrote_blog|Devops|http://jreisinger.blogspot.sk/2017/07/devo
 NonTech|2017-06|read_book|The Return of the King|
 C|2017-05|read_book|Programming in C|https://www.amazon.com/Programming-C-4th-Developers-Library/dp/0321776410
 Python|2017-05|read_book|Think Python|http://greenteapress.com/wp/think-python-2e/
-CSbasic|2017-03|read_book|Grokking Algorithms|https://www.manning.com/books/grokking-algorithms
+CSbasics|2017-03|read_book|Grokking Algorithms|https://www.manning.com/books/grokking-algorithms
 Perl|2017-03|wrote_blog|PM post|http://perlmonks.org/?node_id=1184546
 Python|2017-03|read_book|Python Crash Course|https://www.nostarch.com/pythoncrashcourse
 Perl|2017-01|wrote_script|check_ossec|
