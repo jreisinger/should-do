@@ -2,8 +2,9 @@
 Prometheus,Containers|2020-01|wrote_blog|Prometheus notes|https://reisinge.net/notes/prometheus
 Go,Net,Sec|2020-01|wrote_prog|waf-tester|https://github.com/jreisinger/waf-tester
 NonTech|2020-01|read_book|Spoločenstvo prsteňa
-Go|2019-12|wrote_script|homepage|https://github.com/jreisinger/homepage
 Go|2019-12|wrote_script|runp|https://github.com/jreisinger/runp
+Go,Mngt|2019-12|wrote_blog|runp|https://jreisinger.github.io/blog2/posts/runp/
+Go|2019-12|wrote_script|homepage|https://github.com/jreisinger/homepage
 Containers|2019-07|built|glue/waf-manager
 Net|2019-07|built|nginx.conf - rate limiting, logging
 Go|2019-07|wrote_blog|Introduction to Go|https://github.com/jreisinger/notes/blob/master/content/posts/go-intro.md
