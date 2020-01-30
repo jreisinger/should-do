@@ -3,12 +3,12 @@ use strict;
 use warnings;
 use Time::Piece;
 
-# Skills I want to hone
+# Skills I want to hone - see
+# https://docs.google.com/spreadsheets/d/1__k5iCRbqn0xF3KGY_jn7coahsgbJU_ff0QheeFf3JA/edit#gid=0
 my @wanted_skills = qw(
+  Algorithms
   Net
-  Python
   Go
-  Containers
 );
 
 # Activities that help me hone the skills
