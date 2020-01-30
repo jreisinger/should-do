@@ -1,6 +1,6 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
-Prometheus|2020-01|wrote_blog|Prometheus notes|https://reisinge.net/notes/prometheus
-Go,Net|2020-01|wrote_prog|waf-tester|https://github.com/jreisinger/waf-tester
+Prometheus,Containers|2020-01|wrote_blog|Prometheus notes|https://reisinge.net/notes/prometheus
+Go,Net,Sec|2020-01|wrote_prog|waf-tester|https://github.com/jreisinger/waf-tester
 NonTech|2020-01|read_book|Spoločenstvo prsteňa
 Go|2019-12|wrote_script|homepage|https://github.com/jreisinger/homepage
 Go|2019-12|wrote_script|runp|https://github.com/jreisinger/runp
