@@ -1,4 +1,5 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
+CSbasics|2020-02|wrote_blog|CS notes|https://reisinge.net/notes/cs/
 Prometheus,Containers|2020-01|wrote_blog|Prometheus notes|https://reisinge.net/notes/prometheus
 Go,Net,Sec|2020-01|wrote_prog|waf-tester|https://github.com/jreisinger/waf-tester
 NonTech|2020-01|read_book|Spoločenstvo prsteňa
