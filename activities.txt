@@ -5,6 +5,7 @@ CSbasics|2020-03|wrote_blog|design|https://reisinge.net/notes/cs/design
 CSbasics|2020-03|wrote_blog|selection sort|https://reisinge.net/notes/cs/selection-sort
 NonTech|2020-03|read_book|Zenie ma zle svedomie|https://www.tyzden.sk/shop/7/zenie-ma-zle-svedomie/
 CSbasics|2020-02|wrote_blog|CS notes|https://reisinge.net/notes/cs/
+NonTech|2020-02|read_book|Chatrc
 Prometheus,Containers|2020-01|wrote_blog|Prometheus notes|https://reisinge.net/notes/prometheus
 Go,Net,Sec|2020-01|wrote_prog|waf-tester|https://github.com/jreisinger/waf-tester
 NonTech|2020-01|read_book|Spoločenstvo prsteňa
