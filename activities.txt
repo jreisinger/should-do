@@ -1,5 +1,5 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
-Go,Sec,Net|2020-04|wrote_blog|go-tls|https://reisinge.net/notes/go-tls
+Go,Sec,Net|2020-04|wrote_blog|go-tls|https://reisinge.net/notes/sec/go-tls
 Go,Sec,Net|2020-04|wrote_script|go-tls|https://github.com/jreisinger/go-tls
 Go|2020-03|wrote_script|waf-tester|https://github.com/jreisinger/waf-tester
 Bash|2020-03|wrote_script|waf-runner|https://github.com/jreisinger/waf-runner
