@@ -1,4 +1,7 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
+Go|2020-06|read_chapter|go-for-perl-hackers|https://github.com/oalders/go-for-perl-hackers
+Go|2020-05|wrote_script|checkip|https://github.com/jreisinger/checkip
+Containers|2020-05|wrote_blog|k8s volumes|https://reisinge.net/notes/k8s/volumes
 Go,Sec,Net|2020-04|wrote_blog|go-tls|https://reisinge.net/notes/sec/go-tls
 Go,Sec,Net|2020-04|wrote_script|go-tls|https://github.com/jreisinger/go-tls
 CSbasics|2020-04|wrote_blog|d&c|https://reisinge.net/notes/cs/d&c
