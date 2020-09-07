@@ -1,4 +1,6 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
+Go|2020-09|wrote_prog|kvstore|https://github.com/jreisinger/kvstore
+Go|2020-08|wrote_script|kata|https://reisinge.net/notes/prog/kata
 Go|2020-06|read_chapter|go-for-perl-hackers|https://github.com/oalders/go-for-perl-hackers
 Go|2020-05|wrote_script|checkip|https://github.com/jreisinger/checkip
 Containers|2020-05|wrote_blog|k8s volumes|https://reisinge.net/notes/k8s/volumes
