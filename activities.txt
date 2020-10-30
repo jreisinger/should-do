@@ -1,5 +1,6 @@
 #skill[,skill,...]|YYYY-MM|done_activity|Note[|URL]
 Go|2020-10|wrote_prog|katas|https://github.com/jreisinger/katas
+NonTech|2020-10|read_book|Hovory
 Go|2020-09|wrote_prog|kvstore|https://github.com/jreisinger/kvstore
 Go|2020-08|wrote_script|kata|https://reisinge.net/notes/prog/kata
 Go|2020-06|read_chapter|go-for-perl-hackers|https://github.com/oalders/go-for-perl-hackers
